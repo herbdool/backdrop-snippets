@@ -258,7 +258,7 @@
         "/**",
         " * Implements hook_block_view_alter().",
         " */",
-        "function hook_block_view_alter(array &$build, \\Drupal\\Core\\Block\\BlockPluginInterface $block) {","  $1","}"
+        "function hook_block_view_alter(array &$build, \\Backdrop\\Core\\Block\\BlockPluginInterface $block) {","  $1","}"
     ],
     "description": "Perform alterations to the content of a block.",
     "scope": "text.php"
@@ -549,15 +549,15 @@
     "description": "Perform necessary actions before module is disabled.",
     "scope": "text.php"
   },
-  "hook_drupal_goto_alter": {
-    "prefix": "hook_drupal_goto_alter",
+  "hook_backdrop_goto_alter": {
+    "prefix": "hook_backdrop_goto_alter",
     "body": [
         "/**",
-        " * Implements hook_drupal_goto_alter().",
+        " * Implements hook_backdrop_goto_alter().",
         " */",
-        "function hook_drupal_goto_alter(&$path, &$options, &$http_response_code) {","  $1","}"
+        "function hook_backdrop_goto_alter(&$path, &$options, &$http_response_code) {","  $1","}"
     ],
-    "description": "Change the page the user is sent to by drupal_goto().",
+    "description": "Change the page the user is sent to by backdrop_goto().",
     "scope": "text.php"
   },
   "hook_element_info": {
@@ -599,7 +599,7 @@
         "/**",
         " * Implements hook_entity_delete().",
         " */",
-        "function hook_entity_delete(Drupal\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_delete(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
     ],
     "description": "Act on entities when deleted.",
     "scope": "text.php"
@@ -632,7 +632,7 @@
         "/**",
         " * Implements hook_entity_insert().",
         " */",
-        "function hook_entity_insert(Drupal\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_insert(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
     ],
     "description": "Act on entities when inserted.",
     "scope": "text.php"
@@ -665,7 +665,7 @@
         "/**",
         " * Implements hook_entity_presave().",
         " */",
-        "function hook_entity_presave(Drupal\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_presave(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
     ],
     "description": "Act on an entity before it is about to be created or updated.",
     "scope": "text.php"
@@ -676,7 +676,7 @@
         "/**",
         " * Implements hook_entity_query_alter().",
         " */",
-        "function hook_entity_query_alter(\\Drupal\\Core\\Entity\\Query\\QueryInterface $query) {","  $1","}"
+        "function hook_entity_query_alter(\\Backdrop\\Core\\Entity\\Query\\QueryInterface $query) {","  $1","}"
     ],
     "description": "Alter or execute an EntityFieldQuery.",
     "scope": "text.php"
@@ -687,7 +687,7 @@
         "/**",
         " * Implements hook_entity_update().",
         " */",
-        "function hook_entity_update(Drupal\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_update(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
     ],
     "description": "Act on entities when updated.",
     "scope": "text.php"
@@ -698,7 +698,7 @@
         "/**",
         " * Implements hook_entity_view().",
         " */",
-        "function hook_entity_view(array &$build, \\Drupal\\Core\\Entity\\EntityInterface $entity, \\Drupal\\Core\\Entity\\Display\\EntityViewDisplayInterface $display, $view_mode) {","  $1","}"
+        "function hook_entity_view(array &$build, \\Backdrop\\Core\\Entity\\EntityInterface $entity, \\Backdrop\\Core\\Entity\\Display\\EntityViewDisplayInterface $display, $view_mode) {","  $1","}"
     ],
     "description": "Act on entities being assembled before rendering.",
     "scope": "text.php"
@@ -709,7 +709,7 @@
         "/**",
         " * Implements hook_entity_view_alter().",
         " */",
-        "function hook_entity_view_alter(array &$build, Drupal\\Core\\Entity\\EntityInterface $entity, \\Drupal\\Core\\Entity\\Display\\EntityViewDisplayInterface $display) {","  $1","}"
+        "function hook_entity_view_alter(array &$build, Backdrop\\Core\\Entity\\EntityInterface $entity, \\Backdrop\\Core\\Entity\\Display\\EntityViewDisplayInterface $display) {","  $1","}"
     ],
     "description": "Alter the results of ENTITY_view().",
     "scope": "text.php"
@@ -720,7 +720,7 @@
         "/**",
         " * Implements hook_entity_view_mode_alter().",
         " */",
-        "function hook_entity_view_mode_alter(&$view_mode, Drupal\\Core\\Entity\\EntityInterface $entity, $context) {","  $1","}"
+        "function hook_entity_view_mode_alter(&$view_mode, Backdrop\\Core\\Entity\\EntityInterface $entity, $context) {","  $1","}"
     ],
     "description": "Change the view mode of an entity that is being displayed.",
     "scope": "text.php"
@@ -1215,7 +1215,7 @@
         "/**",
         " * Implements hook_field_purge_field().",
         " */",
-        "function hook_field_purge_field(\\Drupal\\field\\Entity\\FieldConfig $field) {","  $1","}"
+        "function hook_field_purge_field(\\Backdrop\\field\\Entity\\FieldConfig $field) {","  $1","}"
     ],
     "description": "Acts when a field record is being purged.",
     "scope": "text.php"
@@ -1556,7 +1556,7 @@
         "/**",
         " * Implements hook_field_widget_form_alter().",
         " */",
-        "function hook_field_widget_form_alter(&$element, \\Drupal\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
+        "function hook_field_widget_form_alter(&$element, \\Backdrop\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
     ],
     "description": "Alter forms for field widgets provided by other modules.",
     "scope": "text.php"
@@ -1611,7 +1611,7 @@
         "/**",
         " * Implements hook_field_widget_WIDGET_TYPE_form_alter().",
         " */",
-        "function hook_field_widget_WIDGET_TYPE_form_alter(&$element, \\Drupal\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
+        "function hook_field_widget_WIDGET_TYPE_form_alter(&$element, \\Backdrop\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
     ],
     "description": "Alter widget forms for a specific widget provided by another module.",
     "scope": "text.php"
@@ -1644,7 +1644,7 @@
         "/**",
         " * Implements hook_file_copy().",
         " */",
-        "function hook_file_copy(Drupal\\file\\FileInterface $file, Drupal\\file\\FileInterface $source) {","  $1","}"
+        "function hook_file_copy(Backdrop\\file\\FileInterface $file, Backdrop\\file\\FileInterface $source) {","  $1","}"
     ],
     "description": "Respond to a file that has been copied.",
     "scope": "text.php"
@@ -1710,7 +1710,7 @@
         "/**",
         " * Implements hook_file_move().",
         " */",
-        "function hook_file_move(Drupal\\file\\FileInterface $file, Drupal\\file\\FileInterface $source) {","  $1","}"
+        "function hook_file_move(Backdrop\\file\\FileInterface $file, Backdrop\\file\\FileInterface $source) {","  $1","}"
     ],
     "description": "Respond to a file that has been moved.",
     "scope": "text.php"
@@ -1754,7 +1754,7 @@
         "/**",
         " * Implements hook_file_validate().",
         " */",
-        "function hook_file_validate(Drupal\\file\\FileInterface $file) {","  $1","}"
+        "function hook_file_validate(Backdrop\\file\\FileInterface $file) {","  $1","}"
     ],
     "description": "Check that files meet a given criteria.",
     "scope": "text.php"
@@ -1886,7 +1886,7 @@
         "/**",
         " * Implements hook_help().",
         " */",
-        "function hook_help($route_name, \\Drupal\\Core\\Routing\\RouteMatchInterface $route_match) {","  $1","}"
+        "function hook_help($route_name, \\Backdrop\\Core\\Routing\\RouteMatchInterface $route_match) {","  $1","}"
     ],
     "description": "Provide online user help.",
     "scope": "text.php"
@@ -1921,7 +1921,7 @@
         " */",
         "function hook_html_head_alter(&$head_elements) {","  $1","}"
     ],
-    "description": "Alter XHTML HEAD tags before they are rendered by drupal_get_html_head().",
+    "description": "Alter XHTML HEAD tags before they are rendered by backdrop_get_html_head().",
     "scope": "text.php"
   },
   "hook_image_default_styles": {
@@ -1932,7 +1932,7 @@
         " */",
         "function hook_image_default_styles() {","  $1","}"
     ],
-    "description": "Provide module-based image styles for reuse throughout Drupal.",
+    "description": "Provide module-based image styles for reuse throughout Backdrop.",
     "scope": "text.php"
   },
   "hook_image_effect_info": {
@@ -2073,7 +2073,7 @@
         "/**",
         " * Implements hook_js_alter().",
         " */",
-        "function hook_js_alter(&$javascript, \\Drupal\\Core\\Asset\\AttachedAssetsInterface $assets) {","  $1","}"
+        "function hook_js_alter(&$javascript, \\Backdrop\\Core\\Asset\\AttachedAssetsInterface $assets) {","  $1","}"
     ],
     "description": "Perform necessary alterations to the JavaScript before it is presented on the page.",
     "scope": "text.php"
@@ -2207,7 +2207,7 @@
         " */",
         "function hook_mail($key, &$message, $params) {","  $1","}"
     ],
-    "description": "Prepare a message based on parameters; called from drupal_mail().",
+    "description": "Prepare a message based on parameters; called from backdrop_mail().",
     "scope": "text.php"
   },
   "hook_mail_alter": {
@@ -2218,7 +2218,7 @@
         " */",
         "function hook_mail_alter(&$message) {","  $1","}"
     ],
-    "description": "Alter an email message created with the drupal_mail() function.",
+    "description": "Alter an email message created with the backdrop_mail() function.",
     "scope": "text.php"
   },
   "hook_menu": {
@@ -2436,7 +2436,7 @@
         "/**",
         " * Implements hook_multilingual_settings_changed().",
         " */",
-        "function hook_multilingual_settings_changed()hook_node_access(\\Drupal\\node\\NodeInterface $node, $op, \\Drupal\\Core\\Session\\AccountInterface $account) {","  $1","}"
+        "function hook_multilingual_settings_changed()hook_node_access(\\Backdrop\\node\\NodeInterface $node, $op, \\Backdrop\\Core\\Session\\AccountInterface $account) {","  $1","}"
     ],
     "description": "Allow modules to react to language settings changes.",
     "scope": "text.php"
@@ -2447,7 +2447,7 @@
         "/**",
         " * Implements hook_node_access().",
         " */",
-        "function hook_node_access_records(\\Drupal\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_access_records(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
     ],
     "description": "Control access to a node.",
     "scope": "text.php"
@@ -2458,7 +2458,7 @@
         "/**",
         " * Implements hook_node_access_records().",
         " */",
-        "function hook_node_access_records_alter(&$grants, Drupal\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_access_records_alter(&$grants, Backdrop\\node\\NodeInterface $node) {","  $1","}"
     ],
     "description": "Set permissions for a node to be written to the database.",
     "scope": "text.php"
@@ -2491,7 +2491,7 @@
         "/**",
         " * Implements hook_node_grants().",
         " */",
-        "function hook_node_grants(\\Drupal\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
+        "function hook_node_grants(\\Backdrop\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
     ],
     "description": "Inform the node access system what permissions the user has.",
     "scope": "text.php"
@@ -2502,7 +2502,7 @@
         "/**",
         " * Implements hook_node_grants_alter().",
         " */",
-        "function hook_node_grants_alter(&$grants, \\Drupal\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
+        "function hook_node_grants_alter(&$grants, \\Backdrop\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
     ],
     "description": "Alter user access rules when trying to view, edit or delete a node.",
     "scope": "text.php"
@@ -2590,7 +2590,7 @@
         "/**",
         " * Implements hook_node_search_result().",
         " */",
-        "function hook_node_search_result(\\Drupal\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_search_result(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
     ],
     "description": "Act on a node being displayed as a search result.",
     "scope": "text.php"
@@ -2656,7 +2656,7 @@
         "/**",
         " * Implements hook_node_update_index().",
         " */",
-        "function hook_node_update_index(\\Drupal\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_update_index(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
     ],
     "description": "Act on a node being indexed for searching.",
     "scope": "text.php"
@@ -2876,7 +2876,7 @@
         "/**",
         " * Implements hook_query_alter().",
         " */",
-        "function hook_query_alter(Drupal\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
+        "function hook_query_alter(Backdrop\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query.",
     "scope": "text.php"
@@ -2887,7 +2887,7 @@
         "/**",
         " * Implements hook_query_TAG_alter().",
         " */",
-        "function hook_query_TAG_alter(Drupal\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
+        "function hook_query_TAG_alter(Backdrop\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query for a given tag.",
     "scope": "text.php"
@@ -3096,7 +3096,7 @@
         "/**",
         " * Implements hook_stream_wrappers_alter().",
         " */",
-        "function hook_system_info_alter(array &$info, \\Drupal\\Core\\Extension\\Extension $file, $type) {","  $1","}"
+        "function hook_system_info_alter(array &$info, \\Backdrop\\Core\\Extension\\Extension $file, $type) {","  $1","}"
     ],
     "description": "Alters the list of PHP stream wrapper implementations.",
     "scope": "text.php"
@@ -3327,7 +3327,7 @@
         "/**",
         " * Implements hook_tokens().",
         " */",
-        "function hook_tokens($type, $tokens, array $data, array $options, \\Drupal\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
+        "function hook_tokens($type, $tokens, array $data, array $options, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
     ],
     "description": "Provide replacement values for placeholder tokens.",
     "scope": "text.php"
@@ -3338,7 +3338,7 @@
         "/**",
         " * Implements hook_tokens_alter().",
         " */",
-        "function hook_tokens_alter(array &$replacements, array $context, \\Drupal\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
+        "function hook_tokens_alter(array &$replacements, array $context, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
     ],
     "description": "Alter replacement values for placeholder tokens.",
     "scope": "text.php"
@@ -3428,7 +3428,7 @@
         " */",
         "function hook_updater_info() {","  $1","}"
     ],
-    "description": "Provide information on Updaters (classes that can update Drupal).",
+    "description": "Provide information on Updaters (classes that can update Backdrop).",
     "scope": "text.php"
   },
   "hook_updater_info_alter": {
