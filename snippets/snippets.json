@@ -5,7 +5,7 @@
         "/**",
         " * Implements hook_actions_delete().",
         " */",
-        "function hook_actions_delete($aid) {","  $1","}"
+        "function hook_actions_delete($$$aid) {","  $1","}"
     ],
     "description": "Executes code after an action is deleted.",
     "scope": "text.php"
@@ -27,7 +27,7 @@
         "/**",
         " * Implements hook_action_info_alter().",
         " */",
-        "function hook_action_info_alter(&$actions) {","  $1","}"
+        "function hook_action_info_alter(&$$actions) {","  $1","}"
     ],
     "description": "Alters the actions declared by another module.",
     "scope": "text.php"
@@ -49,7 +49,7 @@
         "/**",
         " * Implements hook_admin_paths_alter().",
         " */",
-        "function hook_admin_paths_alter(&$paths)hook_aggregator_fetch($feed) {","  $1","}"
+        "function hook_admin_paths_alter(&$$paths)hook_aggregator_fetch($$$feed) {","  $1","}"
     ],
     "description": "Redefine administrative paths defined by other modules.",
     "scope": "text.php"
@@ -71,7 +71,7 @@
         "/**",
         " * Implements hook_aggregator_fetch_info().",
         " */",
-        "function hook_aggregator_parse($feed) {","  $1","}"
+        "function hook_aggregator_parse($$$feed) {","  $1","}"
     ],
     "description": "Specify the title and short description of your fetcher.",
     "scope": "text.php"
@@ -93,7 +93,7 @@
         "/**",
         " * Implements hook_aggregator_parse_info().",
         " */",
-        "function hook_aggregator_process($feed) {","  $1","}"
+        "function hook_aggregator_process($$$feed) {","  $1","}"
     ],
     "description": "Specify the title and short description of your parser.",
     "scope": "text.php"
@@ -126,7 +126,7 @@
         "/**",
         " * Implements hook_aggregator_remove().",
         " */",
-        "function hook_aggregator_remove($feed) {","  $1","}"
+        "function hook_aggregator_remove($$$feed) {","  $1","}"
     ],
     "description": "Remove stored feed data.",
     "scope": "text.php"
@@ -137,7 +137,7 @@
         "/**",
         " * Implements hook_ajax_render_alter().",
         " */",
-        "function hook_ajax_render_alter(array &$data) {","  $1","}"
+        "function hook_ajax_render_alter(array &$$data) {","  $1","}"
     ],
     "description": "Alter the commands that are sent to the user through the Ajax framework.",
     "scope": "text.php"
@@ -159,7 +159,7 @@
         "/**",
         " * Implements hook_archiver_info_alter().",
         " */",
-        "function hook_archiver_info_alter(&$info) {","  $1","}"
+        "function hook_archiver_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter archiver information declared by other modules.",
     "scope": "text.php"
@@ -170,7 +170,7 @@
         "/**",
         " * Implements hook_batch_alter().",
         " */",
-        "function hook_batch_alter(&$batch) {","  $1","}"
+        "function hook_batch_alter(&$$batch) {","  $1","}"
     ],
     "description": "Alter batch information before a batch is processed.",
     "scope": "text.php"
@@ -181,7 +181,7 @@
         "/**",
         " * Implements hook_block_cid_parts_alter().",
         " */",
-        "function hook_block_cid_parts_alter(&$cid_parts, $block) {","  $1","}"
+        "function hook_block_cid_parts_alter(&$$cid_parts, $$block) {","  $1","}"
     ],
     "description": "Act on block cache ID (cid) parts before the cid is generated.",
     "scope": "text.php"
@@ -192,7 +192,7 @@
         "/**",
         " * Implements hook_block_configure().",
         " */",
-        "function hook_block_configure($delta = '') {","  $1","}"
+        "function hook_block_configure($$$delta = '') {","  $1","}"
     ],
     "description": "Define a configuration form for a block.",
     "scope": "text.php"
@@ -214,7 +214,7 @@
         "/**",
         " * Implements hook_block_info_alter().",
         " */",
-        "function hook_block_info_alter(&$blocks, $theme, $code_blocks) {","  $1","}"
+        "function hook_block_info_alter(&$$blocks, $$theme, $$code_blocks) {","  $1","}"
     ],
     "description": "Change block definition before saving to the database.",
     "scope": "text.php"
@@ -225,7 +225,7 @@
         "/**",
         " * Implements hook_block_list_alter().",
         " */",
-        "function hook_block_list_alter(&$blocks) {","  $1","}"
+        "function hook_block_list_alter(&$$blocks) {","  $1","}"
     ],
     "description": "Act on blocks prior to rendering.",
     "scope": "text.php"
@@ -236,7 +236,7 @@
         "/**",
         " * Implements hook_block_save().",
         " */",
-        "function hook_block_save($delta = '', $edit = array()) {","  $1","}"
+        "function hook_block_save($$$delta = '', $$edit = array()) {","  $1","}"
     ],
     "description": "Save the configuration options from hook_block_configure().",
     "scope": "text.php"
@@ -247,7 +247,7 @@
         "/**",
         " * Implements hook_block_view().",
         " */",
-        "function hook_block_view($delta = '') {","  $1","}"
+        "function hook_block_view($$$delta = '') {","  $1","}"
     ],
     "description": "Return a rendered or renderable view of a block.",
     "scope": "text.php"
@@ -258,7 +258,7 @@
         "/**",
         " * Implements hook_block_view_alter().",
         " */",
-        "function hook_block_view_alter(array &$build, \\Backdrop\\Core\\Block\\BlockPluginInterface $block) {","  $1","}"
+        "function hook_block_view_alter(array &$$build, Block $$block) {","  $1","}"
     ],
     "description": "Perform alterations to the content of a block.",
     "scope": "text.php"
@@ -269,7 +269,7 @@
         "/**",
         " * Implements hook_block_view_MODULE_DELTA_alter().",
         " */",
-        "function hook_block_view_MODULE_DELTA_alter(&$data, $block) {","  $1","}"
+        "function hook_block_view_MODULE_DELTA_alter(&$$data, $$block) {","  $1","}"
     ],
     "description": "Perform alterations to a specific block.",
     "scope": "text.php"
@@ -291,7 +291,7 @@
         "/**",
         " * Implements hook_comment_delete().",
         " */",
-        "function hook_comment_delete($comment) {","  $1","}"
+        "function hook_comment_delete($$$comment) {","  $1","}"
     ],
     "description": "The comment is being deleted by the moderator.",
     "scope": "text.php"
@@ -302,7 +302,7 @@
         "/**",
         " * Implements hook_comment_insert().",
         " */",
-        "function hook_comment_insert($comment) {","  $1","}"
+        "function hook_comment_insert($$$comment) {","  $1","}"
     ],
     "description": "The comment is being inserted.",
     "scope": "text.php"
@@ -313,7 +313,7 @@
         "/**",
         " * Implements hook_comment_load().",
         " */",
-        "function hook_comment_load($comments) {","  $1","}"
+        "function hook_comment_load($$$comments) {","  $1","}"
     ],
     "description": "Comments are being loaded from the database.",
     "scope": "text.php"
@@ -324,7 +324,7 @@
         "/**",
         " * Implements hook_comment_presave().",
         " */",
-        "function hook_comment_presave($comment) {","  $1","}"
+        "function hook_comment_presave($$$comment) {","  $1","}"
     ],
     "description": "The comment passed validation and is about to be saved.",
     "scope": "text.php"
@@ -335,7 +335,7 @@
         "/**",
         " * Implements hook_comment_publish().",
         " */",
-        "function hook_comment_publish($comment) {","  $1","}"
+        "function hook_comment_publish($$$comment) {","  $1","}"
     ],
     "description": "The comment is being published by the moderator.",
     "scope": "text.php"
@@ -346,7 +346,7 @@
         "/**",
         " * Implements hook_comment_unpublish().",
         " */",
-        "function hook_comment_unpublish($comment) {","  $1","}"
+        "function hook_comment_unpublish($$$comment) {","  $1","}"
     ],
     "description": "The comment is being unpublished by the moderator.",
     "scope": "text.php"
@@ -357,7 +357,7 @@
         "/**",
         " * Implements hook_comment_update().",
         " */",
-        "function hook_comment_update($comment) {","  $1","}"
+        "function hook_comment_update($$$comment) {","  $1","}"
     ],
     "description": "The comment is being updated.",
     "scope": "text.php"
@@ -368,7 +368,7 @@
         "/**",
         " * Implements hook_comment_view().",
         " */",
-        "function hook_comment_view($comment, $view_mode, $langcode) {","  $1","}"
+        "function hook_comment_view($$$comment, $$view_mode, $$langcode) {","  $1","}"
     ],
     "description": "The comment is being viewed. This hook can be used to add additional data to the comment before theming.",
     "scope": "text.php"
@@ -379,7 +379,7 @@
         "/**",
         " * Implements hook_comment_view_alter().",
         " */",
-        "function hook_comment_view_alter(&$build) {","  $1","}"
+        "function hook_comment_view_alter(&$$build) {","  $1","}"
     ],
     "description": "The comment was built; the module may modify the structured content.",
     "scope": "text.php"
@@ -390,7 +390,7 @@
         "/**",
         " * Implements hook_contextual_links_view_alter().",
         " */",
-        "function hook_contextual_links_view_alter(&$element, $items) {","  $1","}"
+        "function hook_contextual_links_view_alter(&$$element, $$items) {","  $1","}"
     ],
     "description": "Alter a contextual links element before it is rendered.",
     "scope": "text.php"
@@ -401,7 +401,7 @@
         "/**",
         " * Implements hook_countries_alter().",
         " */",
-        "function hook_countries_alter(&$countries)hook_cron() {","  $1","}"
+        "function hook_countries_alter(&$$countries)hook_cron() {","  $1","}"
     ],
     "description": "Alter the default country list.",
     "scope": "text.php"
@@ -434,7 +434,7 @@
         "/**",
         " * Implements hook_cron_queue_info_alter().",
         " */",
-        "function hook_cron_queue_info_alter(&$queues) {","  $1","}"
+        "function hook_cron_queue_info_alter(&$$queues) {","  $1","}"
     ],
     "description": "Alter cron queue information before cron runs.",
     "scope": "text.php"
@@ -445,7 +445,7 @@
         "/**",
         " * Implements hook_css_alter().",
         " */",
-        "function hook_css_alter(&$css) {","  $1","}"
+        "function hook_css_alter(&$$css) {","  $1","}"
     ],
     "description": "Alter CSS files before they are output on the page.",
     "scope": "text.php"
@@ -478,7 +478,7 @@
         "/**",
         " * Implements hook_dashboard_regions_alter().",
         " */",
-        "function hook_dashboard_regions_alter(&$regions) {","  $1","}"
+        "function hook_dashboard_regions_alter(&$$regions) {","  $1","}"
     ],
     "description": "Alter dashboard regions provided by modules.",
     "scope": "text.php"
@@ -500,7 +500,7 @@
         "/**",
         " * Implements hook_date_formats_alter().",
         " */",
-        "function hook_date_formats_alter(&$formats) {","  $1","}"
+        "function hook_date_formats_alter(&$$formats) {","  $1","}"
     ],
     "description": "Alter date formats declared by another module.",
     "scope": "text.php"
@@ -522,7 +522,7 @@
         "/**",
         " * Implements hook_date_format_types_alter().",
         " */",
-        "function hook_date_format_types_alter(&$types) {","  $1","}"
+        "function hook_date_format_types_alter(&$$types) {","  $1","}"
     ],
     "description": "Modify existing date types.",
     "scope": "text.php"
@@ -533,7 +533,7 @@
         "/**",
         " * Implements hook_delete().",
         " */",
-        "function hook_delete($node)hook_disable() {","  $1","}"
+        "function hook_delete($$$node)hook_disable() {","  $1","}"
     ],
     "description": "Respond to node deletion.",
     "scope": "text.php"
@@ -555,7 +555,7 @@
         "/**",
         " * Implements hook_backdrop_goto_alter().",
         " */",
-        "function hook_backdrop_goto_alter(&$path, &$options, &$http_response_code) {","  $1","}"
+        "function hook_backdrop_goto_alter(&$$path, &$$options, &$$http_response_code) {","  $1","}"
     ],
     "description": "Change the page the user is sent to by backdrop_goto().",
     "scope": "text.php"
@@ -577,7 +577,7 @@
         "/**",
         " * Implements hook_element_info_alter().",
         " */",
-        "function hook_element_info_alter(array &$types) {","  $1","}"
+        "function hook_element_info_alter(array &$$types) {","  $1","}"
     ],
     "description": "Alter the element type information returned from modules.",
     "scope": "text.php"
@@ -599,7 +599,7 @@
         "/**",
         " * Implements hook_entity_delete().",
         " */",
-        "function hook_entity_delete(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_delete(EntityInterface $$entity) {","  $1","}"
     ],
     "description": "Act on entities when deleted.",
     "scope": "text.php"
@@ -621,7 +621,7 @@
         "/**",
         " * Implements hook_entity_info_alter().",
         " */",
-        "function hook_entity_info_alter(&$entity_info) {","  $1","}"
+        "function hook_entity_info_alter(&$$entity_info) {","  $1","}"
     ],
     "description": "Alter the entity info.",
     "scope": "text.php"
@@ -632,7 +632,7 @@
         "/**",
         " * Implements hook_entity_insert().",
         " */",
-        "function hook_entity_insert(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_insert(EntityInterface $$entity) {","  $1","}"
     ],
     "description": "Act on entities when inserted.",
     "scope": "text.php"
@@ -643,7 +643,7 @@
         "/**",
         " * Implements hook_entity_load().",
         " */",
-        "function hook_entity_load(array $entities, $entity_type_id) {","  $1","}"
+        "function hook_entity_load(array $entities, $$entity_type_id) {","  $1","}"
     ],
     "description": "Act on entities when loaded.",
     "scope": "text.php"
@@ -654,7 +654,7 @@
         "/**",
         " * Implements hook_entity_prepare_view().",
         " */",
-        "function hook_entity_prepare_view($entity_type_id, array $entities, array $displays, $view_mode) {","  $1","}"
+        "function hook_entity_prepare_view($$$entity_type_id, array $entities, array $displays, $$view_mode) {","  $1","}"
     ],
     "description": "Act on entities as they are being prepared for view.",
     "scope": "text.php"
@@ -665,7 +665,7 @@
         "/**",
         " * Implements hook_entity_presave().",
         " */",
-        "function hook_entity_presave(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_presave(EntityInterface $$entity) {","  $1","}"
     ],
     "description": "Act on an entity before it is about to be created or updated.",
     "scope": "text.php"
@@ -676,7 +676,7 @@
         "/**",
         " * Implements hook_entity_query_alter().",
         " */",
-        "function hook_entity_query_alter(\\Backdrop\\Core\\Entity\\Query\\QueryInterface $query) {","  $1","}"
+        "function hook_entity_query_alter(EntityFieldQuery $$query) {","  $1","}"
     ],
     "description": "Alter or execute an EntityFieldQuery.",
     "scope": "text.php"
@@ -687,7 +687,7 @@
         "/**",
         " * Implements hook_entity_update().",
         " */",
-        "function hook_entity_update(Backdrop\\Core\\Entity\\EntityInterface $entity) {","  $1","}"
+        "function hook_entity_update(EntityInterface $$entity) {","  $1","}"
     ],
     "description": "Act on entities when updated.",
     "scope": "text.php"
@@ -698,7 +698,7 @@
         "/**",
         " * Implements hook_entity_view().",
         " */",
-        "function hook_entity_view(array &$build, \\Backdrop\\Core\\Entity\\EntityInterface $entity, \\Backdrop\\Core\\Entity\\Display\\EntityViewDisplayInterface $display, $view_mode) {","  $1","}"
+        "function hook_entity_view(array &$$build, \\EntityInterface $$entity, string $$display, $$view_mode) {","  $1","}"
     ],
     "description": "Act on entities being assembled before rendering.",
     "scope": "text.php"
@@ -709,7 +709,7 @@
         "/**",
         " * Implements hook_entity_view_alter().",
         " */",
-        "function hook_entity_view_alter(array &$build, Backdrop\\Core\\Entity\\EntityInterface $entity, \\Backdrop\\Core\\Entity\\Display\\EntityViewDisplayInterface $display) {","  $1","}"
+        "function hook_entity_view_alter(array &$$build, EntityInterface $$entity, string $$type) {","  $1","}"
     ],
     "description": "Alter the results of ENTITY_view().",
     "scope": "text.php"
@@ -720,7 +720,7 @@
         "/**",
         " * Implements hook_entity_view_mode_alter().",
         " */",
-        "function hook_entity_view_mode_alter(&$view_mode, Backdrop\\Core\\Entity\\EntityInterface $entity, $context) {","  $1","}"
+        "function hook_entity_view_mode_alter(&$$view_mode, EntityInterface $$entity, $$context) {","  $1","}"
     ],
     "description": "Change the view mode of an entity that is being displayed.",
     "scope": "text.php"
@@ -731,7 +731,7 @@
         "/**",
         " * Implements hook_exit().",
         " */",
-        "function hook_exit($destination = NULL) {","  $1","}"
+        "function hook_exit($$destination = NULL) {","  $1","}"
     ],
     "description": "Perform cleanup tasks.",
     "scope": "text.php"
@@ -742,7 +742,7 @@
         "/**",
         " * Implements hook_field_access().",
         " */",
-        "function hook_field_access($op, $field, $entity_type, $entity, $account) {","  $1","}"
+        "function hook_field_access($$op, $$field, $$entity_type, $$entity, $$account) {","  $1","}"
     ],
     "description": "Determine whether the user has access to a given field.",
     "scope": "text.php"
@@ -753,7 +753,7 @@
         "/**",
         " * Implements hook_field_attach_create_bundle().",
         " */",
-        "function hook_field_attach_create_bundle($entity_type, $bundle) {","  $1","}"
+        "function hook_field_attach_create_bundle($$entity_type, $$bundle) {","  $1","}"
     ],
     "description": "Act on field_attach_create_bundle().",
     "scope": "text.php"
@@ -764,7 +764,7 @@
         "/**",
         " * Implements hook_field_attach_delete().",
         " */",
-        "function hook_field_attach_delete($entity_type, $entity) {","  $1","}"
+        "function hook_field_attach_delete($$entity_type, $$entity) {","  $1","}"
     ],
     "description": "Act on field_attach_delete().",
     "scope": "text.php"
@@ -775,7 +775,7 @@
         "/**",
         " * Implements hook_field_attach_delete_bundle().",
         " */",
-        "function hook_field_attach_delete_bundle($entity_type, $bundle, $instances) {","  $1","}"
+        "function hook_field_attach_delete_bundle($$entity_type, $$bundle, $$instances) {","  $1","}"
     ],
     "description": "Act on field_attach_delete_bundle.",
     "scope": "text.php"
@@ -786,7 +786,7 @@
         "/**",
         " * Implements hook_field_attach_delete_revision().",
         " */",
-        "function hook_field_attach_delete_revision($entity_type, $entity) {","  $1","}"
+        "function hook_field_attach_delete_revision($$entity_type, $$entity) {","  $1","}"
     ],
     "description": "Act on field_attach_delete_revision().",
     "scope": "text.php"
@@ -797,7 +797,7 @@
         "/**",
         " * Implements hook_field_attach_form().",
         " */",
-        "function hook_field_attach_form($entity_type, $entity, &$form, &$form_state, $langcode) {","  $1","}"
+        "function hook_field_attach_form($$entity_type, $$entity, &$$form, &$$form_state, $$langcode) {","  $1","}"
     ],
     "description": "Act on field_attach_form().",
     "scope": "text.php"
@@ -808,7 +808,7 @@
         "/**",
         " * Implements hook_field_attach_insert().",
         " */",
-        "function hook_field_attach_insert($entity_type, $entity) {","  $1","}"
+        "function hook_field_attach_insert($$entity_type, $$entity) {","  $1","}"
     ],
     "description": "Act on field_attach_insert().",
     "scope": "text.php"
@@ -819,7 +819,7 @@
         "/**",
         " * Implements hook_field_attach_load().",
         " */",
-        "function hook_field_attach_load($entity_type, $entities, $age, $options) {","  $1","}"
+        "function hook_field_attach_load($$entity_type, $$entities, $$age, $$options) {","  $1","}"
     ],
     "description": "Act on field_attach_load().",
     "scope": "text.php"
@@ -830,7 +830,7 @@
         "/**",
         " * Implements hook_field_attach_prepare_translation_alter().",
         " */",
-        "function hook_field_attach_prepare_translation_alter(&$entity, $context) {","  $1","}"
+        "function hook_field_attach_prepare_translation_alter(&$$entity, $$context) {","  $1","}"
     ],
     "description": "Perform alterations on field_attach_prepare_translation().",
     "scope": "text.php"
@@ -841,7 +841,7 @@
         "/**",
         " * Implements hook_field_attach_preprocess_alter().",
         " */",
-        "function hook_field_attach_preprocess_alter(&$variables, $context) {","  $1","}"
+        "function hook_field_attach_preprocess_alter(&$$variables, $$context) {","  $1","}"
     ],
     "description": "Alter field_attach_preprocess() variables.",
     "scope": "text.php"
@@ -852,7 +852,7 @@
         "/**",
         " * Implements hook_field_attach_presave().",
         " */",
-        "function hook_field_attach_presave($entity_type, $entity) {","  $1","}"
+        "function hook_field_attach_presave($$entity_type, $$entity) {","  $1","}"
     ],
     "description": "Act on field_attach_presave().",
     "scope": "text.php"
@@ -863,7 +863,7 @@
         "/**",
         " * Implements hook_field_attach_purge().",
         " */",
-        "function hook_field_attach_purge($entity_type, $entity, $field, $instance) {","  $1","}"
+        "function hook_field_attach_purge($$entity_type, $$entity, $$field, $$instance) {","  $1","}"
     ],
     "description": "Act on field_purge_data().",
     "scope": "text.php"
@@ -874,7 +874,7 @@
         "/**",
         " * Implements hook_field_attach_rename_bundle().",
         " */",
-        "function hook_field_attach_rename_bundle($entity_type, $bundle_old, $bundle_new) {","  $1","}"
+        "function hook_field_attach_rename_bundle($$entity_type, $$bundle_old, $$bundle_new) {","  $1","}"
     ],
     "description": "Act on field_attach_rename_bundle().",
     "scope": "text.php"
@@ -885,7 +885,7 @@
         "/**",
         " * Implements hook_field_attach_submit().",
         " */",
-        "function hook_field_attach_submit($entity_type, $entity, $form, &$form_state) {","  $1","}"
+        "function hook_field_attach_submit($$entity_type, $$entity, $$form, &$$form_state) {","  $1","}"
     ],
     "description": "Act on field_attach_submit().",
     "scope": "text.php"
@@ -896,7 +896,7 @@
         "/**",
         " * Implements hook_field_attach_update().",
         " */",
-        "function hook_field_attach_update($entity_type, $entity) {","  $1","}"
+        "function hook_field_attach_update($$entity_type, $$entity) {","  $1","}"
     ],
     "description": "Act on field_attach_update().",
     "scope": "text.php"
@@ -907,7 +907,7 @@
         "/**",
         " * Implements hook_field_attach_validate().",
         " */",
-        "function hook_field_attach_validate($entity_type, $entity, &$errors) {","  $1","}"
+        "function hook_field_attach_validate($$entity_type, $$entity, &$$errors) {","  $1","}"
     ],
     "description": "Act on field_attach_validate().",
     "scope": "text.php"
@@ -918,7 +918,7 @@
         "/**",
         " * Implements hook_field_attach_view_alter().",
         " */",
-        "function hook_field_attach_view_alter(&$output, $context) {","  $1","}"
+        "function hook_field_attach_view_alter(&$$output, $$context) {","  $1","}"
     ],
     "description": "Perform alterations on field_attach_view() or field_view_field().",
     "scope": "text.php"
@@ -929,7 +929,7 @@
         "/**",
         " * Implements hook_field_available_languages_alter().",
         " */",
-        "function hook_field_available_languages_alter(&$languages, $context) {","  $1","}"
+        "function hook_field_available_languages_alter(&$$languages, $$context) {","  $1","}"
     ],
     "description": "Alter field_available_languages() values.",
     "scope": "text.php"
@@ -940,7 +940,7 @@
         "/**",
         " * Implements hook_field_create_field().",
         " */",
-        "function hook_field_create_field($field) {","  $1","}"
+        "function hook_field_create_field($$field) {","  $1","}"
     ],
     "description": "Act on a field being created.",
     "scope": "text.php"
@@ -951,7 +951,7 @@
         "/**",
         " * Implements hook_field_create_instance().",
         " */",
-        "function hook_field_create_instance($instance) {","  $1","}"
+        "function hook_field_create_instance($$instance) {","  $1","}"
     ],
     "description": "Act on a field instance being created.",
     "scope": "text.php"
@@ -962,7 +962,7 @@
         "/**",
         " * Implements hook_field_delete().",
         " */",
-        "function hook_field_delete($entity_type, $entity, $field, $instance, $langcode, &$items) {","  $1","}"
+        "function hook_field_delete($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Define custom delete behavior for this module's field data.",
     "scope": "text.php"
@@ -973,7 +973,7 @@
         "/**",
         " * Implements hook_field_delete_field().",
         " */",
-        "function hook_field_delete_field($field) {","  $1","}"
+        "function hook_field_delete_field($$field) {","  $1","}"
     ],
     "description": "Act on a field being deleted.",
     "scope": "text.php"
@@ -984,7 +984,7 @@
         "/**",
         " * Implements hook_field_delete_instance().",
         " */",
-        "function hook_field_delete_instance($instance) {","  $1","}"
+        "function hook_field_delete_instance($$instance) {","  $1","}"
     ],
     "description": "Act on a field instance being deleted.",
     "scope": "text.php"
@@ -995,7 +995,7 @@
         "/**",
         " * Implements hook_field_delete_revision().",
         " */",
-        "function hook_field_delete_revision($entity_type, $entity, $field, $instance, $langcode, &$items) {","  $1","}"
+        "function hook_field_delete_revision($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Define custom revision delete behavior for this module's field types.",
     "scope": "text.php"
@@ -1006,7 +1006,7 @@
         "/**",
         " * Implements hook_field_display_alter().",
         " */",
-        "function hook_field_display_alter(&$display, $context) {","  $1","}"
+        "function hook_field_display_alter(&$$display, $$context) {","  $1","}"
     ],
     "description": "Alters the display settings of a field before it gets displayed.",
     "scope": "text.php"
@@ -1017,7 +1017,7 @@
         "/**",
         " * Implements hook_field_display_ENTITY_TYPE_alter().",
         " */",
-        "function hook_field_display_ENTITY_TYPE_alter(&$display, $context) {","  $1","}"
+        "function hook_field_display_ENTITY_TYPE_alter(&$$display, $$context) {","  $1","}"
     ],
     "description": "Alters the display settings of a field on a given entity type before it gets displayed.",
     "scope": "text.php"
@@ -1039,7 +1039,7 @@
         "/**",
         " * Implements hook_field_extra_fields_alter().",
         " */",
-        "function hook_field_extra_fields_alter(&$info) {","  $1","}"
+        "function hook_field_extra_fields_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter pseudo-field components on fieldable entities.",
     "scope": "text.php"
@@ -1050,7 +1050,7 @@
         "/**",
         " * Implements hook_field_extra_fields_display_alter().",
         " */",
-        "function hook_field_extra_fields_display_alter(&$displays, $context) {","  $1","}"
+        "function hook_field_extra_fields_display_alter(&$$displays, $$context) {","  $1","}"
     ],
     "description": "Alters the display settings of pseudo-fields before an entity is displayed.",
     "scope": "text.php"
@@ -1072,7 +1072,7 @@
         "/**",
         " * Implements hook_field_formatter_info_alter().",
         " */",
-        "function hook_field_formatter_info_alter(array &$info) {","  $1","}"
+        "function hook_field_formatter_info_alter(array &$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API formatter types.",
     "scope": "text.php"
@@ -1083,7 +1083,7 @@
         "/**",
         " * Implements hook_field_formatter_prepare_view().",
         " */",
-        "function hook_field_formatter_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items, $displays) {","  $1","}"
+        "function hook_field_formatter_prepare_view($$entity_type, $$entities, $$field, $$instances, $$langcode, &$$items, $$displays) {","  $1","}"
     ],
     "description": "Allow formatters to load information for field values being displayed.",
     "scope": "text.php"
@@ -1094,7 +1094,7 @@
         "/**",
         " * Implements hook_field_formatter_view().",
         " */",
-        "function hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {","  $1","}"
+        "function hook_field_formatter_view($$entity_type, $$entity, $$field, $$instance, $$langcode, $$items, $$display) {","  $1","}"
     ],
     "description": "Build a renderable array for a field value.",
     "scope": "text.php"
@@ -1116,7 +1116,7 @@
         "/**",
         " * Implements hook_field_info_alter().",
         " */",
-        "function hook_field_info_alter(&$info) {","  $1","}"
+        "function hook_field_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API field types.",
     "scope": "text.php"
@@ -1127,7 +1127,7 @@
         "/**",
         " * Implements hook_field_info_max_weight().",
         " */",
-        "function hook_field_info_max_weight($entity_type, $bundle, $context, $context_mode) {","  $1","}"
+        "function hook_field_info_max_weight($$entity_type, $$bundle, $$context, $$context_mode) {","  $1","}"
     ],
     "description": "Returns the maximum weight for the entity components handled by the module.",
     "scope": "text.php"
@@ -1138,7 +1138,7 @@
         "/**",
         " * Implements hook_field_insert().",
         " */",
-        "function hook_field_insert($entity_type, $entity, $field, $instance, $langcode, &$items) {","  $1","}"
+        "function hook_field_insert($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Define custom insert behavior for this module's field data.",
     "scope": "text.php"
@@ -1149,7 +1149,7 @@
         "/**",
         " * Implements hook_field_is_empty().",
         " */",
-        "function hook_field_is_empty($item, $field) {","  $1","}"
+        "function hook_field_is_empty($$item, $$field) {","  $1","}"
     ],
     "description": "Define what constitutes an empty item for a field type.",
     "scope": "text.php"
@@ -1160,7 +1160,7 @@
         "/**",
         " * Implements hook_field_language_alter().",
         " */",
-        "function hook_field_language_alter(&$display_language, $context) {","  $1","}"
+        "function hook_field_language_alter(&$$display_language, $$context) {","  $1","}"
     ],
     "description": "Perform alterations on field_language() values.",
     "scope": "text.php"
@@ -1171,7 +1171,7 @@
         "/**",
         " * Implements hook_field_load().",
         " */",
-        "function hook_field_load($entity_type, $entities, $field, $instances, $langcode, &$items, $age) {","  $1","}"
+        "function hook_field_load($$entity_type, $$entities, $$field, $$instances, $$langcode, &$$items, $$age) {","  $1","}"
     ],
     "description": "Define custom load behavior for this module's field types.",
     "scope": "text.php"
@@ -1182,7 +1182,7 @@
         "/**",
         " * Implements hook_field_prepare_translation().",
         " */",
-        "function hook_field_prepare_translation($entity_type, $entity, $field, $instance, $langcode, &$items, $source_entity, $source_langcode) {","  $1","}"
+        "function hook_field_prepare_translation($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items, $$source_entity, $$source_langcode) {","  $1","}"
     ],
     "description": "Define custom prepare_translation behavior for this module's field types.",
     "scope": "text.php"
@@ -1193,7 +1193,7 @@
         "/**",
         " * Implements hook_field_prepare_view().",
         " */",
-        "function hook_field_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items) {","  $1","}"
+        "function hook_field_prepare_view($$entity_type, $$entities, $$field, $$instances, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Prepare field values prior to display.",
     "scope": "text.php"
@@ -1204,7 +1204,7 @@
         "/**",
         " * Implements hook_field_presave().",
         " */",
-        "function hook_field_presave($entity_type, $entity, $field, $instance, $langcode, &$items) {","  $1","}"
+        "function hook_field_presave($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Define custom presave behavior for this module's field types.",
     "scope": "text.php"
@@ -1215,7 +1215,7 @@
         "/**",
         " * Implements hook_field_purge_field().",
         " */",
-        "function hook_field_purge_field(\\Backdrop\\field\\Entity\\FieldConfig $field) {","  $1","}"
+        "function hook_field_purge_field(\\Backdrop\\field\\Entity\\FieldConfig $$field) {","  $1","}"
     ],
     "description": "Acts when a field record is being purged.",
     "scope": "text.php"
@@ -1226,7 +1226,7 @@
         "/**",
         " * Implements hook_field_purge_instance().",
         " */",
-        "function hook_field_purge_instance($instance) {","  $1","}"
+        "function hook_field_purge_instance($$instance) {","  $1","}"
     ],
     "description": "Acts when a field instance is being purged.",
     "scope": "text.php"
@@ -1237,7 +1237,7 @@
         "/**",
         " * Implements hook_field_read_field().",
         " */",
-        "function hook_field_read_field($field) {","  $1","}"
+        "function hook_field_read_field($$field) {","  $1","}"
     ],
     "description": "Act on field records being read from the database.",
     "scope": "text.php"
@@ -1248,7 +1248,7 @@
         "/**",
         " * Implements hook_field_read_instance().",
         " */",
-        "function hook_field_read_instance($instance) {","  $1","}"
+        "function hook_field_read_instance($$instance) {","  $1","}"
     ],
     "description": "Act on a field record being read from the database.",
     "scope": "text.php"
@@ -1259,7 +1259,7 @@
         "/**",
         " * Implements hook_field_schema().",
         " */",
-        "function hook_field_schema($field) {","  $1","}"
+        "function hook_field_schema($$field) {","  $1","}"
     ],
     "description": "Define the Field API schema for a field structure.",
     "scope": "text.php"
@@ -1270,7 +1270,7 @@
         "/**",
         " * Implements hook_field_storage_create_field().",
         " */",
-        "function hook_field_storage_create_field($field) {","  $1","}"
+        "function hook_field_storage_create_field($$field) {","  $1","}"
     ],
     "description": "Act on creation of a new field.",
     "scope": "text.php"
@@ -1281,7 +1281,7 @@
         "/**",
         " * Implements hook_field_storage_delete().",
         " */",
-        "function hook_field_storage_delete($entity_type, $entity, $fields) {","  $1","}"
+        "function hook_field_storage_delete($$entity_type, $$entity, $$fields) {","  $1","}"
     ],
     "description": "Delete all field data for an entity.",
     "scope": "text.php"
@@ -1292,7 +1292,7 @@
         "/**",
         " * Implements hook_field_storage_delete_field().",
         " */",
-        "function hook_field_storage_delete_field($field) {","  $1","}"
+        "function hook_field_storage_delete_field($$field) {","  $1","}"
     ],
     "description": "Act on deletion of a field.",
     "scope": "text.php"
@@ -1303,7 +1303,7 @@
         "/**",
         " * Implements hook_field_storage_delete_instance().",
         " */",
-        "function hook_field_storage_delete_instance($instance) {","  $1","}"
+        "function hook_field_storage_delete_instance($$instance) {","  $1","}"
     ],
     "description": "Act on deletion of a field instance.",
     "scope": "text.php"
@@ -1314,7 +1314,7 @@
         "/**",
         " * Implements hook_field_storage_delete_revision().",
         " */",
-        "function hook_field_storage_delete_revision($entity_type, $entity, $fields) {","  $1","}"
+        "function hook_field_storage_delete_revision($$entity_type, $$entity, $$fields) {","  $1","}"
     ],
     "description": "Delete a single revision of field data for an entity.",
     "scope": "text.php"
@@ -1325,7 +1325,7 @@
         "/**",
         " * Implements hook_field_storage_details().",
         " */",
-        "function hook_field_storage_details($field) {","  $1","}"
+        "function hook_field_storage_details($$field) {","  $1","}"
     ],
     "description": "Reveal the internal details about the storage for a field.",
     "scope": "text.php"
@@ -1336,7 +1336,7 @@
         "/**",
         " * Implements hook_field_storage_details_alter().",
         " */",
-        "function hook_field_storage_details_alter(&$details, $field) {","  $1","}"
+        "function hook_field_storage_details_alter(&$$details, $$field) {","  $1","}"
     ],
     "description": "Perform alterations on Field API storage details.",
     "scope": "text.php"
@@ -1358,7 +1358,7 @@
         "/**",
         " * Implements hook_field_storage_info_alter().",
         " */",
-        "function hook_field_storage_info_alter(&$info) {","  $1","}"
+        "function hook_field_storage_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API storage types.",
     "scope": "text.php"
@@ -1369,7 +1369,7 @@
         "/**",
         " * Implements hook_field_storage_load().",
         " */",
-        "function hook_field_storage_load($entity_type, $entities, $age, $fields, $options) {","  $1","}"
+        "function hook_field_storage_load($$entity_type, $$entities, $$age, $$fields, $$options) {","  $1","}"
     ],
     "description": "Load field data for a set of entities.",
     "scope": "text.php"
@@ -1380,7 +1380,7 @@
         "/**",
         " * Implements hook_field_storage_pre_insert().",
         " */",
-        "function hook_field_storage_pre_insert($entity_type, $entity, &$skip_fields) {","  $1","}"
+        "function hook_field_storage_pre_insert($$entity_type, $$entity, &$$skip_fields) {","  $1","}"
     ],
     "description": "Act before the storage backends insert field data.",
     "scope": "text.php"
@@ -1391,7 +1391,7 @@
         "/**",
         " * Implements hook_field_storage_pre_load().",
         " */",
-        "function hook_field_storage_pre_load($entity_type, $entities, $age, &$skip_fields, $options) {","  $1","}"
+        "function hook_field_storage_pre_load($$entity_type, $$entities, $$age, &$$skip_fields, $$options) {","  $1","}"
     ],
     "description": "Act before the storage backends load field data.",
     "scope": "text.php"
@@ -1402,7 +1402,7 @@
         "/**",
         " * Implements hook_field_storage_pre_update().",
         " */",
-        "function hook_field_storage_pre_update($entity_type, $entity, &$skip_fields) {","  $1","}"
+        "function hook_field_storage_pre_update($$entity_type, $$entity, &$$skip_fields) {","  $1","}"
     ],
     "description": "Act before the storage backends update field data.",
     "scope": "text.php"
@@ -1413,7 +1413,7 @@
         "/**",
         " * Implements hook_field_storage_purge().",
         " */",
-        "function hook_field_storage_purge($entity_type, $entity, $field, $instance) {","  $1","}"
+        "function hook_field_storage_purge($$entity_type, $$entity, $$field, $$instance) {","  $1","}"
     ],
     "description": "Remove field storage information when field data is purged.",
     "scope": "text.php"
@@ -1424,7 +1424,7 @@
         "/**",
         " * Implements hook_field_storage_purge_field().",
         " */",
-        "function hook_field_storage_purge_field($field) {","  $1","}"
+        "function hook_field_storage_purge_field($$field) {","  $1","}"
     ],
     "description": "Remove field storage information when a field record is purged.",
     "scope": "text.php"
@@ -1435,7 +1435,7 @@
         "/**",
         " * Implements hook_field_storage_purge_field_instance().",
         " */",
-        "function hook_field_storage_purge_field_instance($instance) {","  $1","}"
+        "function hook_field_storage_purge_field_instance($$instance) {","  $1","}"
     ],
     "description": "Remove field storage information when a field instance is purged.",
     "scope": "text.php"
@@ -1446,7 +1446,7 @@
         "/**",
         " * Implements hook_field_storage_query().",
         " */",
-        "function hook_field_storage_query($query) {","  $1","}"
+        "function hook_field_storage_query($$query) {","  $1","}"
     ],
     "description": "Execute an EntityFieldQuery.",
     "scope": "text.php"
@@ -1457,7 +1457,7 @@
         "/**",
         " * Implements hook_field_storage_update_field().",
         " */",
-        "function hook_field_storage_update_field($field, $prior_field, $has_data) {","  $1","}"
+        "function hook_field_storage_update_field($$field, $$prior_field, $$has_data) {","  $1","}"
     ],
     "description": "Update the storage information for a field.",
     "scope": "text.php"
@@ -1468,7 +1468,7 @@
         "/**",
         " * Implements hook_field_storage_write().",
         " */",
-        "function hook_field_storage_write($entity_type, $entity, $op, $fields) {","  $1","}"
+        "function hook_field_storage_write($$entity_type, $$entity, $$op, $$fields) {","  $1","}"
     ],
     "description": "Write field data for an entity.",
     "scope": "text.php"
@@ -1479,7 +1479,7 @@
         "/**",
         " * Implements hook_field_update().",
         " */",
-        "function hook_field_update($entity_type, $entity, $field, $instance, $langcode, &$items) {","  $1","}"
+        "function hook_field_update($$entity_type, $$entity, $$field, $$instance, $$langcode, &$$items) {","  $1","}"
     ],
     "description": "Define custom update behavior for this module's field data.",
     "scope": "text.php"
@@ -1490,7 +1490,7 @@
         "/**",
         " * Implements hook_field_update_field().",
         " */",
-        "function hook_field_update_field($field, $prior_field, $has_data) {","  $1","}"
+        "function hook_field_update_field($$field, $$prior_field, $$has_data) {","  $1","}"
     ],
     "description": "Act on a field being updated.",
     "scope": "text.php"
@@ -1501,7 +1501,7 @@
         "/**",
         " * Implements hook_field_update_forbid().",
         " */",
-        "function hook_field_update_forbid($field, $prior_field, $has_data) {","  $1","}"
+        "function hook_field_update_forbid($$field, $$prior_field, $$has_data) {","  $1","}"
     ],
     "description": "Forbid a field update from occurring.",
     "scope": "text.php"
@@ -1512,7 +1512,7 @@
         "/**",
         " * Implements hook_field_update_instance().",
         " */",
-        "function hook_field_update_instance($instance, $prior_instance) {","  $1","}"
+        "function hook_field_update_instance($$instance, $$prior_instance) {","  $1","}"
     ],
     "description": "Act on a field instance being updated.",
     "scope": "text.php"
@@ -1523,7 +1523,7 @@
         "/**",
         " * Implements hook_field_validate().",
         " */",
-        "function hook_field_validate($entity_type, $entity, $field, $instance, $langcode, $items, &$errors) {","  $1","}"
+        "function hook_field_validate($$entity_type, $$entity, $$field, $$instance, $$langcode, $$items, &$$errors) {","  $1","}"
     ],
     "description": "Validate this module's field data.",
     "scope": "text.php"
@@ -1534,7 +1534,7 @@
         "/**",
         " * Implements hook_field_widget_error().",
         " */",
-        "function hook_field_widget_error($element, $error, $form, &$form_state) {","  $1","}"
+        "function hook_field_widget_error($$element, $$error, $$form, &$$form_state) {","  $1","}"
     ],
     "description": "Flag a field-level validation error.",
     "scope": "text.php"
@@ -1545,7 +1545,7 @@
         "/**",
         " * Implements hook_field_widget_form().",
         " */",
-        "function hook_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $element) {","  $1","}"
+        "function hook_field_widget_form(&$$form, &$$form_state, $$field, $$instance, $$langcode, $$items, $$delta, $$element) {","  $1","}"
     ],
     "description": "Return the form for a single field widget.",
     "scope": "text.php"
@@ -1556,7 +1556,7 @@
         "/**",
         " * Implements hook_field_widget_form_alter().",
         " */",
-        "function hook_field_widget_form_alter(&$element, \\Backdrop\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
+        "function hook_field_widget_form_alter(&$$element, array $$form_state, $$context) {","  $1","}"
     ],
     "description": "Alter forms for field widgets provided by other modules.",
     "scope": "text.php"
@@ -1578,7 +1578,7 @@
         "/**",
         " * Implements hook_field_widget_info_alter().",
         " */",
-        "function hook_field_widget_info_alter(array &$info) {","  $1","}"
+        "function hook_field_widget_info_alter(array &$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API widget types.",
     "scope": "text.php"
@@ -1589,7 +1589,7 @@
         "/**",
         " * Implements hook_field_widget_properties_alter().",
         " */",
-        "function hook_field_widget_properties_alter(&$widget, $context) {","  $1","}"
+        "function hook_field_widget_properties_alter(&$$widget, $$context) {","  $1","}"
     ],
     "description": "Alters the widget properties of a field instance before it gets displayed.",
     "scope": "text.php"
@@ -1600,7 +1600,7 @@
         "/**",
         " * Implements hook_field_widget_properties_ENTITY_TYPE_alter().",
         " */",
-        "function hook_field_widget_properties_ENTITY_TYPE_alter(&$widget, $context) {","  $1","}"
+        "function hook_field_widget_properties_ENTITY_TYPE_alter(&$$widget, $$context) {","  $1","}"
     ],
     "description": "Alters the widget properties of a field instance on a given entity type before it gets displayed.",
     "scope": "text.php"
@@ -1611,7 +1611,7 @@
         "/**",
         " * Implements hook_field_widget_WIDGET_TYPE_form_alter().",
         " */",
-        "function hook_field_widget_WIDGET_TYPE_form_alter(&$element, \\Backdrop\\Core\\Form\\FormStateInterface $form_state, $context) {","  $1","}"
+        "function hook_field_widget_WIDGET_TYPE_form_alter(&$$element, array $$form_state, $$context) {","  $1","}"
     ],
     "description": "Alter widget forms for a specific widget provided by another module.",
     "scope": "text.php"
@@ -1633,7 +1633,7 @@
         "/**",
         " * Implements hook_filetransfer_info_alter().",
         " */",
-        "function hook_filetransfer_info_alter(&$filetransfer_info) {","  $1","}"
+        "function hook_filetransfer_info_alter(&$$filetransfer_info) {","  $1","}"
     ],
     "description": "Alter the FileTransfer class registry.",
     "scope": "text.php"
@@ -1644,7 +1644,7 @@
         "/**",
         " * Implements hook_file_copy().",
         " */",
-        "function hook_file_copy(Backdrop\\file\\FileInterface $file, Backdrop\\file\\FileInterface $source) {","  $1","}"
+        "function hook_file_copy(File $$file, File $$source) {","  $1","}"
     ],
     "description": "Respond to a file that has been copied.",
     "scope": "text.php"
@@ -1655,7 +1655,7 @@
         "/**",
         " * Implements hook_file_delete().",
         " */",
-        "function hook_file_delete($file) {","  $1","}"
+        "function hook_file_delete($$file) {","  $1","}"
     ],
     "description": "Respond to a file being deleted.",
     "scope": "text.php"
@@ -1666,7 +1666,7 @@
         "/**",
         " * Implements hook_file_download().",
         " */",
-        "function hook_file_download($uri) {","  $1","}"
+        "function hook_file_download($$uri) {","  $1","}"
     ],
     "description": "Control access to private file downloads and specify HTTP headers.",
     "scope": "text.php"
@@ -1677,7 +1677,7 @@
         "/**",
         " * Implements hook_file_insert().",
         " */",
-        "function hook_file_insert($file) {","  $1","}"
+        "function hook_file_insert($$file) {","  $1","}"
     ],
     "description": "Respond to a file being added.",
     "scope": "text.php"
@@ -1688,7 +1688,7 @@
         "/**",
         " * Implements hook_file_load().",
         " */",
-        "function hook_file_load($files) {","  $1","}"
+        "function hook_file_load($$files) {","  $1","}"
     ],
     "description": "Load additional information into file objects.",
     "scope": "text.php"
@@ -1699,7 +1699,7 @@
         "/**",
         " * Implements hook_file_mimetype_mapping_alter().",
         " */",
-        "function hook_file_mimetype_mapping_alter(&$mapping) {","  $1","}"
+        "function hook_file_mimetype_mapping_alter(&$$mapping) {","  $1","}"
     ],
     "description": "Alter MIME type mappings used to determine MIME type from a file extension.",
     "scope": "text.php"
@@ -1710,7 +1710,7 @@
         "/**",
         " * Implements hook_file_move().",
         " */",
-        "function hook_file_move(Backdrop\\file\\FileInterface $file, Backdrop\\file\\FileInterface $source) {","  $1","}"
+        "function hook_file_move(File $$file, File $$source) {","  $1","}"
     ],
     "description": "Respond to a file that has been moved.",
     "scope": "text.php"
@@ -1721,7 +1721,7 @@
         "/**",
         " * Implements hook_file_presave().",
         " */",
-        "function hook_file_presave($file) {","  $1","}"
+        "function hook_file_presave($$file) {","  $1","}"
     ],
     "description": "Act on a file being inserted or updated.",
     "scope": "text.php"
@@ -1732,7 +1732,7 @@
         "/**",
         " * Implements hook_file_update().",
         " */",
-        "function hook_file_update($file) {","  $1","}"
+        "function hook_file_update($$file) {","  $1","}"
     ],
     "description": "Respond to a file being updated.",
     "scope": "text.php"
@@ -1743,7 +1743,7 @@
         "/**",
         " * Implements hook_file_url_alter().",
         " */",
-        "function hook_file_url_alter(&$uri) {","  $1","}"
+        "function hook_file_url_alter(&$$uri) {","  $1","}"
     ],
     "description": "Alter the URL to a file.",
     "scope": "text.php"
@@ -1754,7 +1754,7 @@
         "/**",
         " * Implements hook_file_validate().",
         " */",
-        "function hook_file_validate(Backdrop\\file\\FileInterface $file) {","  $1","}"
+        "function hook_file_validate(File $$file) {","  $1","}"
     ],
     "description": "Check that files meet a given criteria.",
     "scope": "text.php"
@@ -1765,7 +1765,7 @@
         "/**",
         " * Implements hook_filter_format_disable().",
         " */",
-        "function hook_filter_format_disable($format) {","  $1","}"
+        "function hook_filter_format_disable($$format) {","  $1","}"
     ],
     "description": "Perform actions when a text format has been disabled.",
     "scope": "text.php"
@@ -1776,7 +1776,7 @@
         "/**",
         " * Implements hook_filter_format_insert().",
         " */",
-        "function hook_filter_format_insert($format) {","  $1","}"
+        "function hook_filter_format_insert($$format) {","  $1","}"
     ],
     "description": "Perform actions when a new text format has been created.",
     "scope": "text.php"
@@ -1787,7 +1787,7 @@
         "/**",
         " * Implements hook_filter_format_update().",
         " */",
-        "function hook_filter_format_update($format) {","  $1","}"
+        "function hook_filter_format_update($$format) {","  $1","}"
     ],
     "description": "Perform actions when a text format has been updated.",
     "scope": "text.php"
@@ -1809,7 +1809,7 @@
         "/**",
         " * Implements hook_filter_info_alter().",
         " */",
-        "function hook_filter_info_alter(&$info) {","  $1","}"
+        "function hook_filter_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on filter definitions.",
     "scope": "text.php"
@@ -1831,7 +1831,7 @@
         "/**",
         " * Implements hook_form().",
         " */",
-        "function hook_form($node, &$form_state) {","  $1","}"
+        "function hook_form($$node, &$$form_state) {","  $1","}"
     ],
     "description": "Display a node editing form.",
     "scope": "text.php"
@@ -1853,7 +1853,7 @@
         "/**",
         " * Implements hook_form_alter().",
         " */",
-        "function hook_form_alter(&$form, &$form_state, $form_id) {","  $1","}"
+        "function hook_form_alter(&$$form, &$$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Perform alterations before a form is rendered.",
     "scope": "text.php"
@@ -1864,7 +1864,7 @@
         "/**",
         " * Implements hook_form_BASE_FORM_ID_alter().",
         " */",
-        "function hook_form_BASE_FORM_ID_alter(&$form, &$form_state, $form_id) {","  $1","}"
+        "function hook_form_BASE_FORM_ID_alter(&$$form, &$$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Provide a form-specific alteration for shared ('base') forms.",
     "scope": "text.php"
@@ -1875,22 +1875,12 @@
         "/**",
         " * Implements hook_form_FORM_ID_alter().",
         " */",
-        "function hook_form_FORM_ID_alter(&$form, &$form_state, $form_id) {","  $1","}"
+        "function hook_form_FORM_ID_alter(&$$form, &$$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Provide a form-specific alteration instead of the global hook_form_alter().",
     "scope": "text.php"
   },
-  "hook_help": {
-    "prefix": "hook_help",
-    "body": [
-        "/**",
-        " * Implements hook_help().",
-        " */",
-        "function hook_help($route_name, \\Backdrop\\Core\\Routing\\RouteMatchInterface $route_match) {","  $1","}"
-    ],
-    "description": "Provide online user help.",
-    "scope": "text.php"
-  },
+
   "hook_hook_info": {
     "prefix": "hook_hook_info",
     "body": [
@@ -1908,7 +1898,7 @@
         "/**",
         " * Implements hook_hook_info_alter().",
         " */",
-        "function hook_hook_info_alter(&$hooks) {","  $1","}"
+        "function hook_hook_info_alter(&$$hooks) {","  $1","}"
     ],
     "description": "Alter information from hook_hook_info().",
     "scope": "text.php"
@@ -1919,7 +1909,7 @@
         "/**",
         " * Implements hook_html_head_alter().",
         " */",
-        "function hook_html_head_alter(&$head_elements) {","  $1","}"
+        "function hook_html_head_alter(&$$head_elements) {","  $1","}"
     ],
     "description": "Alter XHTML HEAD tags before they are rendered by backdrop_get_html_head().",
     "scope": "text.php"
@@ -1952,7 +1942,7 @@
         "/**",
         " * Implements hook_image_effect_info_alter().",
         " */",
-        "function hook_image_effect_info_alter(&$effects) {","  $1","}"
+        "function hook_image_effect_info_alter(&$$effects) {","  $1","}"
     ],
     "description": "Alter the information provided in hook_image_effect_info().",
     "scope": "text.php"
@@ -1963,7 +1953,7 @@
         "/**",
         " * Implements hook_image_styles_alter().",
         " */",
-        "function hook_image_styles_alter(&$styles) {","  $1","}"
+        "function hook_image_styles_alter(&$$styles) {","  $1","}"
     ],
     "description": "Modify any image styles provided by other modules or the user.",
     "scope": "text.php"
@@ -1974,7 +1964,7 @@
         "/**",
         " * Implements hook_image_style_delete().",
         " */",
-        "function hook_image_style_delete($style) {","  $1","}"
+        "function hook_image_style_delete($$style) {","  $1","}"
     ],
     "description": "Respond to image style deletion.",
     "scope": "text.php"
@@ -1985,7 +1975,7 @@
         "/**",
         " * Implements hook_image_style_flush().",
         " */",
-        "function hook_image_style_flush($style) {","  $1","}"
+        "function hook_image_style_flush($$style) {","  $1","}"
     ],
     "description": "Respond to image style flushing.",
     "scope": "text.php"
@@ -1996,7 +1986,7 @@
         "/**",
         " * Implements hook_image_style_save().",
         " */",
-        "function hook_image_style_save($style) {","  $1","}"
+        "function hook_image_style_save($$style) {","  $1","}"
     ],
     "description": "Respond to image style updating.",
     "scope": "text.php"
@@ -2029,7 +2019,7 @@
         "/**",
         " * Implements hook_insert().",
         " */",
-        "function hook_insert($node) {","  $1","}"
+        "function hook_insert($$node) {","  $1","}"
     ],
     "description": "Respond to creation of a new node.",
     "scope": "text.php"
@@ -2051,7 +2041,7 @@
         "/**",
         " * Implements hook_install_tasks().",
         " */",
-        "function hook_install_tasks(&$install_state) {","  $1","}"
+        "function hook_install_tasks(&$$install_state) {","  $1","}"
     ],
     "description": "Return an array of tasks to be performed by an installation profile.",
     "scope": "text.php"
@@ -2062,7 +2052,7 @@
         "/**",
         " * Implements hook_install_tasks_alter().",
         " */",
-        "function hook_install_tasks_alter(&$tasks, $install_state) {","  $1","}"
+        "function hook_install_tasks_alter(&$$tasks, $$install_state) {","  $1","}"
     ],
     "description": "Alter the full list of installation tasks.",
     "scope": "text.php"
@@ -2073,7 +2063,7 @@
         "/**",
         " * Implements hook_js_alter().",
         " */",
-        "function hook_js_alter(&$javascript, \\Backdrop\\Core\\Asset\\AttachedAssetsInterface $assets) {","  $1","}"
+        "function hook_js_alter(&$$javascript) {","  $1","}"
     ],
     "description": "Perform necessary alterations to the JavaScript before it is presented on the page.",
     "scope": "text.php"
@@ -2084,7 +2074,7 @@
         "/**",
         " * Implements hook_language_fallback_candidates_alter().",
         " */",
-        "function hook_language_fallback_candidates_alter(array &$candidates, array $context) {","  $1","}"
+        "function hook_language_fallback_candidates_alter(array &$$candidates, array $context) {","  $1","}"
     ],
     "description": "Perform alterations on the language fallback candidates.",
     "scope": "text.php"
@@ -2117,7 +2107,7 @@
         "/**",
         " * Implements hook_language_negotiation_info_alter().",
         " */",
-        "function hook_language_negotiation_info_alter(array &$negotiation_info) {","  $1","}"
+        "function hook_language_negotiation_info_alter(array &$$negotiation_info) {","  $1","}"
     ],
     "description": "Perform alterations on language negoiation providers.",
     "scope": "text.php"
@@ -2128,7 +2118,7 @@
         "/**",
         " * Implements hook_language_switch_links_alter().",
         " */",
-        "function hook_language_switch_links_alter(array &$links, $type, $path) {","  $1","}"
+        "function hook_language_switch_links_alter(array &$$links, $$type, $$path) {","  $1","}"
     ],
     "description": "Perform alterations on language switcher links.",
     "scope": "text.php"
@@ -2150,7 +2140,7 @@
         "/**",
         " * Implements hook_language_types_info_alter().",
         " */",
-        "function hook_language_types_info_alter(array &$language_types) {","  $1","}"
+        "function hook_language_types_info_alter(array &$$language_types) {","  $1","}"
     ],
     "description": "Perform alterations on language types.",
     "scope": "text.php"
@@ -2172,7 +2162,7 @@
         "/**",
         " * Implements hook_library_info_alter().",
         " */",
-        "function hook_library_info)alter(&$libraries, $module) {","  $1","}"
+        "function hook_library_info)alter(&$$libraries, $$module) {","  $1","}"
     ],
     "description": "Alters the JavaScript/CSS library registry.",
     "scope": "text.php"
@@ -2183,7 +2173,7 @@
         "/**",
         " * Implements hook_load().",
         " */",
-        "function hook_load($nodes) {","  $1","}"
+        "function hook_load($$nodes) {","  $1","}"
     ],
     "description": "Act on nodes being loaded from the database.",
     "scope": "text.php"
@@ -2194,7 +2184,7 @@
         "/**",
         " * Implements hook_locale().",
         " */",
-        "function hook_locale($op = 'groups') {","  $1","}"
+        "function hook_locale($$op = 'groups') {","  $1","}"
     ],
     "description": "Allows modules to define their own text groups that can be translated.",
     "scope": "text.php"
@@ -2205,7 +2195,7 @@
         "/**",
         " * Implements hook_mail().",
         " */",
-        "function hook_mail($key, &$message, $params) {","  $1","}"
+        "function hook_mail($$key, &$$message, $$params) {","  $1","}"
     ],
     "description": "Prepare a message based on parameters; called from backdrop_mail().",
     "scope": "text.php"
@@ -2216,7 +2206,7 @@
         "/**",
         " * Implements hook_mail_alter().",
         " */",
-        "function hook_mail_alter(&$message) {","  $1","}"
+        "function hook_mail_alter(&$$message) {","  $1","}"
     ],
     "description": "Alter an email message created with the backdrop_mail() function.",
     "scope": "text.php"
@@ -2238,7 +2228,7 @@
         "/**",
         " * Implements hook_menu_alter().",
         " */",
-        "function hook_menu_alter(&$items) {","  $1","}"
+        "function hook_menu_alter(&$$items) {","  $1","}"
     ],
     "description": "Alter the data being saved to the {menu_router} table after hook_menu is invoked.",
     "scope": "text.php"
@@ -2249,7 +2239,7 @@
         "/**",
         " * Implements hook_menu_breadcrumb_alter().",
         " */",
-        "function hook_menu_breadcrumb_alter(&$active_trail, $item) {","  $1","}"
+        "function hook_menu_breadcrumb_alter(&$$active_trail, $$item) {","  $1","}"
     ],
     "description": "Alter links in the active trail before it is rendered as the breadcrumb.",
     "scope": "text.php"
@@ -2260,7 +2250,7 @@
         "/**",
         " * Implements hook_menu_contextual_links_alter().",
         " */",
-        "function hook_menu_contextual_links_alter(&$links, $router_item, $root_path) {","  $1","}"
+        "function hook_menu_contextual_links_alter(&$$links, $$router_item, $$root_path) {","  $1","}"
     ],
     "description": "Alter contextual links before they are rendered.",
     "scope": "text.php"
@@ -2271,7 +2261,7 @@
         "/**",
         " * Implements hook_menu_delete().",
         " */",
-        "function hook_menu_delete($menu) {","  $1","}"
+        "function hook_menu_delete($$menu) {","  $1","}"
     ],
     "description": "Respond to a custom menu deletion.",
     "scope": "text.php"
@@ -2282,7 +2272,7 @@
         "/**",
         " * Implements hook_menu_get_item_alter().",
         " */",
-        "function hook_menu_get_item_alter(&$router_item, $path, $original_map) {","  $1","}"
+        "function hook_menu_get_item_alter(&$$router_item, $$path, $$original_map) {","  $1","}"
     ],
     "description": "Alter a menu router item right after it has been retrieved from the database or cache.",
     "scope": "text.php"
@@ -2293,7 +2283,7 @@
         "/**",
         " * Implements hook_menu_insert().",
         " */",
-        "function hook_menu_insert($menu) {","  $1","}"
+        "function hook_menu_insert($$menu) {","  $1","}"
     ],
     "description": "Respond to a custom menu creation.",
     "scope": "text.php"
@@ -2304,7 +2294,7 @@
         "/**",
         " * Implements hook_menu_link_alter().",
         " */",
-        "function hook_menu_link_alter(&$item, $menu) {","  $1","}"
+        "function hook_menu_link_alter(&$$item, $$menu) {","  $1","}"
     ],
     "description": "Alter the data being saved to the {menu_links} table by menu_link_save().",
     "scope": "text.php"
@@ -2315,7 +2305,7 @@
         "/**",
         " * Implements hook_menu_link_delete().",
         " */",
-        "function hook_menu_link_delete($link) {","  $1","}"
+        "function hook_menu_link_delete($$link) {","  $1","}"
     ],
     "description": "Inform modules that a menu link has been deleted.",
     "scope": "text.php"
@@ -2326,7 +2316,7 @@
         "/**",
         " * Implements hook_menu_link_insert().",
         " */",
-        "function hook_menu_link_insert($link) {","  $1","}"
+        "function hook_menu_link_insert($$link) {","  $1","}"
     ],
     "description": "Inform modules that a menu link has been created.",
     "scope": "text.php"
@@ -2337,7 +2327,7 @@
         "/**",
         " * Implements hook_menu_link_update().",
         " */",
-        "function hook_menu_link_update($link) {","  $1","}"
+        "function hook_menu_link_update($$link) {","  $1","}"
     ],
     "description": "Inform modules that a menu link has been updated.",
     "scope": "text.php"
@@ -2348,7 +2338,7 @@
         "/**",
         " * Implements hook_menu_local_tasks_alter().",
         " */",
-        "function hook_menu_local_tasks_alter(&$data, $route_name) {","  $1","}"
+        "function hook_menu_local_tasks_alter(&$$data, $$route_name) {","  $1","}"
     ],
     "description": "Alter tabs and actions displayed on the page before they are rendered.",
     "scope": "text.php"
@@ -2359,7 +2349,7 @@
         "/**",
         " * Implements hook_menu_site_status_alter().",
         " */",
-        "function hook_menu_site_status_alter(&$menu_site_status, $path) {","  $1","}"
+        "function hook_menu_site_status_alter(&$$menu_site_status, $$path) {","  $1","}"
     ],
     "description": "Control site status before menu dispatching.",
     "scope": "text.php"
@@ -2370,7 +2360,7 @@
         "/**",
         " * Implements hook_menu_update().",
         " */",
-        "function hook_menu_update($menu) {","  $1","}"
+        "function hook_menu_update($$menu) {","  $1","}"
     ],
     "description": "Respond to a custom menu update.",
     "scope": "text.php"
@@ -2381,7 +2371,7 @@
         "/**",
         " * Implements hook_modules_disabled().",
         " */",
-        "function hook_modules_disabled($modules) {","  $1","}"
+        "function hook_modules_disabled($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are disabled.",
     "scope": "text.php"
@@ -2392,7 +2382,7 @@
         "/**",
         " * Implements hook_modules_enabled().",
         " */",
-        "function hook_modules_enabled($modules) {","  $1","}"
+        "function hook_modules_enabled($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are enabled.",
     "scope": "text.php"
@@ -2403,7 +2393,7 @@
         "/**",
         " * Implements hook_modules_installed().",
         " */",
-        "function hook_modules_installed($modules) {","  $1","}"
+        "function hook_modules_installed($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are installed.",
     "scope": "text.php"
@@ -2414,7 +2404,7 @@
         "/**",
         " * Implements hook_modules_uninstalled().",
         " */",
-        "function hook_modules_uninstalled($modules) {","  $1","}"
+        "function hook_modules_uninstalled($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are uninstalled.",
     "scope": "text.php"
@@ -2425,7 +2415,7 @@
         "/**",
         " * Implements hook_module_implements_alter().",
         " */",
-        "function hook_module_implements_alter(&$implementations, $hook) {","  $1","}"
+        "function hook_module_implements_alter(&$$implementations, $$hook) {","  $1","}"
     ],
     "description": "Alter the registry of modules implementing a hook.",
     "scope": "text.php"
@@ -2436,7 +2426,7 @@
         "/**",
         " * Implements hook_multilingual_settings_changed().",
         " */",
-        "function hook_multilingual_settings_changed()hook_node_access(\\Backdrop\\node\\NodeInterface $node, $op, \\Backdrop\\Core\\Session\\AccountInterface $account) {","  $1","}"
+        "function hook_multilingual_settings_changed()hook_node_access(Node $$node, $$op, User $$account) {","  $1","}"
     ],
     "description": "Allow modules to react to language settings changes.",
     "scope": "text.php"
@@ -2447,7 +2437,7 @@
         "/**",
         " * Implements hook_node_access().",
         " */",
-        "function hook_node_access_records(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_access_records(Node $$node) {","  $1","}"
     ],
     "description": "Control access to a node.",
     "scope": "text.php"
@@ -2458,7 +2448,7 @@
         "/**",
         " * Implements hook_node_access_records().",
         " */",
-        "function hook_node_access_records_alter(&$grants, Backdrop\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_access_records_alter(&$$grants, Node $$node) {","  $1","}"
     ],
     "description": "Set permissions for a node to be written to the database.",
     "scope": "text.php"
@@ -2469,7 +2459,7 @@
         "/**",
         " * Implements hook_node_access_records_alter().",
         " */",
-        "function hook_node_access_records_alter(&$grants, $node) {","  $1","}"
+        "function hook_node_access_records_alter(&$$grants, $$node) {","  $1","}"
     ],
     "description": "Alter permissions for a node before it is written to the database.",
     "scope": "text.php"
@@ -2480,7 +2470,7 @@
         "/**",
         " * Implements hook_node_delete().",
         " */",
-        "function hook_node_delete($node) {","  $1","}"
+        "function hook_node_delete($$node) {","  $1","}"
     ],
     "description": "Respond to node deletion.",
     "scope": "text.php"
@@ -2491,7 +2481,7 @@
         "/**",
         " * Implements hook_node_grants().",
         " */",
-        "function hook_node_grants(\\Backdrop\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
+        "function hook_node_grants(User $$account, $$op) {","  $1","}"
     ],
     "description": "Inform the node access system what permissions the user has.",
     "scope": "text.php"
@@ -2502,7 +2492,7 @@
         "/**",
         " * Implements hook_node_grants_alter().",
         " */",
-        "function hook_node_grants_alter(&$grants, \\Backdrop\\Core\\Session\\AccountInterface $account, $op) {","  $1","}"
+        "function hook_node_grants_alter(&$$grants, User $$account, $$op) {","  $1","}"
     ],
     "description": "Alter user access rules when trying to view, edit or delete a node.",
     "scope": "text.php"
@@ -2524,7 +2514,7 @@
         "/**",
         " * Implements hook_node_insert().",
         " */",
-        "function hook_node_insert($node) {","  $1","}"
+        "function hook_node_insert($$node) {","  $1","}"
     ],
     "description": "Respond to creation of a new node.",
     "scope": "text.php"
@@ -2535,7 +2525,7 @@
         "/**",
         " * Implements hook_node_load().",
         " */",
-        "function hook_node_load($nodes, $types) {","  $1","}"
+        "function hook_node_load($$nodes, $$types) {","  $1","}"
     ],
     "description": "Act on arbitrary nodes being loaded from the database.",
     "scope": "text.php"
@@ -2557,7 +2547,7 @@
         "/**",
         " * Implements hook_node_prepare().",
         " */",
-        "function hook_node_prepare($node) {","  $1","}"
+        "function hook_node_prepare($$node) {","  $1","}"
     ],
     "description": "Act on a node object about to be shown on the add/edit form.",
     "scope": "text.php"
@@ -2568,7 +2558,7 @@
         "/**",
         " * Implements hook_node_presave().",
         " */",
-        "function hook_node_presave($node) {","  $1","}"
+        "function hook_node_presave($$node) {","  $1","}"
     ],
     "description": "Act on a node being inserted or updated.",
     "scope": "text.php"
@@ -2579,7 +2569,7 @@
         "/**",
         " * Implements hook_node_revision_delete().",
         " */",
-        "function hook_node_revision_delete($node) {","  $1","}"
+        "function hook_node_revision_delete($$node) {","  $1","}"
     ],
     "description": "Respond to deletion of a node revision.",
     "scope": "text.php"
@@ -2590,7 +2580,7 @@
         "/**",
         " * Implements hook_node_search_result().",
         " */",
-        "function hook_node_search_result(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_search_result(Node $$node) {","  $1","}"
     ],
     "description": "Act on a node being displayed as a search result.",
     "scope": "text.php"
@@ -2601,7 +2591,7 @@
         "/**",
         " * Implements hook_node_submit().",
         " */",
-        "function hook_node_submit($node, $form, &$form_state) {","  $1","}"
+        "function hook_node_submit($$node, $$form, &$$form_state) {","  $1","}"
     ],
     "description": "Act on a node after validated form values have been copied to it.",
     "scope": "text.php"
@@ -2612,7 +2602,7 @@
         "/**",
         " * Implements hook_node_type_delete().",
         " */",
-        "function hook_node_type_delete($info) {","  $1","}"
+        "function hook_node_type_delete($$info) {","  $1","}"
     ],
     "description": "Respond to node type deletion.",
     "scope": "text.php"
@@ -2623,7 +2613,7 @@
         "/**",
         " * Implements hook_node_type_insert().",
         " */",
-        "function hook_node_type_insert($info) {","  $1","}"
+        "function hook_node_type_insert($$info) {","  $1","}"
     ],
     "description": "Respond to node type creation.",
     "scope": "text.php"
@@ -2634,7 +2624,7 @@
         "/**",
         " * Implements hook_node_type_update().",
         " */",
-        "function hook_node_type_update($info) {","  $1","}"
+        "function hook_node_type_update($$info) {","  $1","}"
     ],
     "description": "Respond to node type updates.",
     "scope": "text.php"
@@ -2645,7 +2635,7 @@
         "/**",
         " * Implements hook_node_update().",
         " */",
-        "function hook_node_update($node) {","  $1","}"
+        "function hook_node_update($$node) {","  $1","}"
     ],
     "description": "Respond to updates to a node.",
     "scope": "text.php"
@@ -2656,7 +2646,7 @@
         "/**",
         " * Implements hook_node_update_index().",
         " */",
-        "function hook_node_update_index(\\Backdrop\\node\\NodeInterface $node) {","  $1","}"
+        "function hook_node_update_index(Node $$node) {","  $1","}"
     ],
     "description": "Act on a node being indexed for searching.",
     "scope": "text.php"
@@ -2667,7 +2657,7 @@
         "/**",
         " * Implements hook_node_validate().",
         " */",
-        "function hook_node_validate($node, $form, &$form_state) {","  $1","}"
+        "function hook_node_validate($$node, $$form, &$$form_state) {","  $1","}"
     ],
     "description": "Perform node validation before a node is created or updated.",
     "scope": "text.php"
@@ -2678,7 +2668,7 @@
         "/**",
         " * Implements hook_node_view().",
         " */",
-        "function hook_node_view($node, $view_mode, $langcode) {","  $1","}"
+        "function hook_node_view($$node, $$view_mode, $$langcode) {","  $1","}"
     ],
     "description": "Act on a node that is being assembled before rendering.",
     "scope": "text.php"
@@ -2689,7 +2679,7 @@
         "/**",
         " * Implements hook_node_view_alter().",
         " */",
-        "function hook_node_view_alter(&$build) {","  $1","}"
+        "function hook_node_view_alter(&$$build) {","  $1","}"
     ],
     "description": "Alter the results of node_view().",
     "scope": "text.php"
@@ -2700,7 +2690,7 @@
         "/**",
         " * Implements hook_openid().",
         " */",
-        "function hook_openid($op, $request) {","  $1","}"
+        "function hook_openid($$op, $$request) {","  $1","}"
     ],
     "description": "Allow modules to modify the OpenID request parameters.",
     "scope": "text.php"
@@ -2722,7 +2712,7 @@
         "/**",
         " * Implements hook_openid_discovery_method_info_alter().",
         " */",
-        "function hook_openid_discovery_method_info_alter(&$methods) {","  $1","}"
+        "function hook_openid_discovery_method_info_alter(&$$methods) {","  $1","}"
     ],
     "description": "Allow modules to alter discovery methods.",
     "scope": "text.php"
@@ -2744,7 +2734,7 @@
         "/**",
         " * Implements hook_openid_normalization_method_info_alter().",
         " */",
-        "function hook_openid_normalization_method_info_alter(&$methods) {","  $1","}"
+        "function hook_openid_normalization_method_info_alter(&$$methods) {","  $1","}"
     ],
     "description": "Allow modules to alter normalization methods.",
     "scope": "text.php"
@@ -2755,7 +2745,7 @@
         "/**",
         " * Implements hook_openid_response().",
         " */",
-        "function hook_openid_response($response, $account) {","  $1","}"
+        "function hook_openid_response($$response, $$account) {","  $1","}"
     ],
     "description": "Allow modules to act upon a successful OpenID login.",
     "scope": "text.php"
@@ -2788,7 +2778,7 @@
         "/**",
         " * Implements hook_page_alter().",
         " */",
-        "function hook_page_alter(&$page) {","  $1","}"
+        "function hook_page_alter(&$$page) {","  $1","}"
     ],
     "description": "Perform alterations before a page is rendered.",
     "scope": "text.php"
@@ -2799,7 +2789,7 @@
         "/**",
         " * Implements hook_page_build().",
         " */",
-        "function hook_page_build(&$page) {","  $1","}"
+        "function hook_page_build(&$$page) {","  $1","}"
     ],
     "description": "Add elements to a page before it is rendered.",
     "scope": "text.php"
@@ -2810,7 +2800,7 @@
         "/**",
         " * Implements hook_page_delivery_callback_alter().",
         " */",
-        "function hook_page_delivery_callback_alter(&$callback) {","  $1","}"
+        "function hook_page_delivery_callback_alter(&$$callback) {","  $1","}"
     ],
     "description": "Alters the delivery callback used to send the result of the page callback to the browser.",
     "scope": "text.php"
@@ -2821,7 +2811,7 @@
         "/**",
         " * Implements hook_path_delete().",
         " */",
-        "function hook_path_delete($path) {","  $1","}"
+        "function hook_path_delete($$path) {","  $1","}"
     ],
     "description": "Respond to a path being deleted.",
     "scope": "text.php"
@@ -2832,7 +2822,7 @@
         "/**",
         " * Implements hook_path_insert().",
         " */",
-        "function hook_path_insert($path) {","  $1","}"
+        "function hook_path_insert($$path) {","  $1","}"
     ],
     "description": "Respond to a path being inserted.",
     "scope": "text.php"
@@ -2843,7 +2833,7 @@
         "/**",
         " * Implements hook_path_update().",
         " */",
-        "function hook_path_update($path) {","  $1","}"
+        "function hook_path_update($$path) {","  $1","}"
     ],
     "description": "Respond to a path being updated.",
     "scope": "text.php"
@@ -2865,7 +2855,7 @@
         "/**",
         " * Implements hook_prepare().",
         " */",
-        "function hook_prepare($node) {","  $1","}"
+        "function hook_prepare($$node) {","  $1","}"
     ],
     "description": "Act on a node object about to be shown on the add/edit form.",
     "scope": "text.php"
@@ -2876,7 +2866,7 @@
         "/**",
         " * Implements hook_query_alter().",
         " */",
-        "function hook_query_alter(Backdrop\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
+        "function hook_query_alter(QueryAlterableInterface $$query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query.",
     "scope": "text.php"
@@ -2887,7 +2877,7 @@
         "/**",
         " * Implements hook_query_TAG_alter().",
         " */",
-        "function hook_query_TAG_alter(Backdrop\\Core\\Database\\Query\\AlterableInterface $query) {","  $1","}"
+        "function hook_query_TAG_alter(QueryAlterableInterface $$query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query for a given tag.",
     "scope": "text.php"
@@ -2898,7 +2888,7 @@
         "/**",
         " * Implements hook_ranking().",
         " */",
-        "function hook_ranking()hook_rdf_mapping() {","  $1","}"
+        "function hook_ranking() {","  $1","}"
     ],
     "description": "Provide additional methods of scoring for core search results for nodes.",
     "scope": "text.php"
@@ -2931,7 +2921,7 @@
         "/**",
         " * Implements hook_registry_files_alter().",
         " */",
-        "function hook_registry_files_alter(&$files, $modules) {","  $1","}"
+        "function hook_registry_files_alter(&$$files, $$modules) {","  $1","}"
     ],
     "description": "Perform necessary alterations to the list of files parsed by the registry.",
     "scope": "text.php"
@@ -2942,7 +2932,7 @@
         "/**",
         " * Implements hook_requirements().",
         " */",
-        "function hook_requirements($phase) {","  $1","}"
+        "function hook_requirements($$phase) {","  $1","}"
     ],
     "description": "Check installation requirements and do status reporting.",
     "scope": "text.php"
@@ -2964,7 +2954,7 @@
         "/**",
         " * Implements hook_schema_alter().",
         " */",
-        "function hook_schema_alter(&$schema) {","  $1","}"
+        "function hook_schema_alter(&$$schema) {","  $1","}"
     ],
     "description": "Perform alterations to existing database schemas.",
     "scope": "text.php"
@@ -2997,7 +2987,7 @@
         "/**",
         " * Implements hook_search_execute().",
         " */",
-        "function hook_search_execute($keys = NULL, $conditions = NULL) {","  $1","}"
+        "function hook_search_execute($$keys = NULL, $$conditions = NULL) {","  $1","}"
     ],
     "description": "Execute a search for a set of key words.",
     "scope": "text.php"
@@ -3019,7 +3009,7 @@
         "/**",
         " * Implements hook_search_page().",
         " */",
-        "function hook_search_page($results) {","  $1","}"
+        "function hook_search_page($$results) {","  $1","}"
     ],
     "description": "Override the rendering of search results.",
     "scope": "text.php"
@@ -3030,7 +3020,7 @@
         "/**",
         " * Implements hook_search_preprocess().",
         " */",
-        "function hook_search_preprocess($text, $langcode = NULL) {","  $1","}"
+        "function hook_search_preprocess($$text, $$langcode = NULL) {","  $1","}"
     ],
     "description": "Preprocess text for search.",
     "scope": "text.php"
@@ -3063,7 +3053,7 @@
         "/**",
         " * Implements hook_shortcut_default_set().",
         " */",
-        "function hook_shortcut_default_set($account) {","  $1","}"
+        "function hook_shortcut_default_set($$account) {","  $1","}"
     ],
     "description": "Return the name of a default shortcut set for the provided user account.",
     "scope": "text.php"
@@ -3074,7 +3064,7 @@
         "/**",
         " * Implements hook_simpletest_alter().",
         " */",
-        "function hook_simpletest_alter(&$groups)hook_stream_wrappers() {","  $1","}"
+        "function hook_simpletest_alter(&$$groups)hook_stream_wrappers() {","  $1","}"
     ],
     "description": "Alter the list of tests.",
     "scope": "text.php"
@@ -3085,7 +3075,7 @@
         "/**",
         " * Implements hook_stream_wrappers().",
         " */",
-        "function hook_stream_wrappers_alter(&$wrappers) {","  $1","}"
+        "function hook_stream_wrappers_alter(&$$wrappers) {","  $1","}"
     ],
     "description": "Registers PHP stream wrapper implementations associated with a module.",
     "scope": "text.php"
@@ -3096,7 +3086,7 @@
         "/**",
         " * Implements hook_stream_wrappers_alter().",
         " */",
-        "function hook_system_info_alter(array &$info, \\Backdrop\\Core\\Extension\\Extension $file, $type) {","  $1","}"
+        "function hook_system_info_alter(array &$$info, \\Backdrop\\Core\\Extension\\Extension $file, $$type) {","  $1","}"
     ],
     "description": "Alters the list of PHP stream wrapper implementations.",
     "scope": "text.php"
@@ -3107,7 +3097,7 @@
         "/**",
         " * Implements hook_system_info_alter().",
         " */",
-        "function hook_system_themes_page_alter(&$theme_groups) {","  $1","}"
+        "function hook_system_themes_page_alter(&$$theme_groups) {","  $1","}"
     ],
     "description": "Alter the information parsed from module and theme .info files",
     "scope": "text.php"
@@ -3118,7 +3108,7 @@
         "/**",
         " * Implements hook_system_themes_page_alter().",
         " */",
-        "function hook_system_themes_page_alter(&$theme_groups) {","  $1","}"
+        "function hook_system_themes_page_alter(&$$theme_groups) {","  $1","}"
     ],
     "description": "Alters theme operation links.",
     "scope": "text.php"
@@ -3140,7 +3130,7 @@
         "/**",
         " * Implements hook_taxonomy_term_delete().",
         " */",
-        "function hook_taxonomy_term_delete($term) {","  $1","}"
+        "function hook_taxonomy_term_delete($$term) {","  $1","}"
     ],
     "description": "Respond to the deletion of taxonomy terms.",
     "scope": "text.php"
@@ -3151,7 +3141,7 @@
         "/**",
         " * Implements hook_taxonomy_term_insert().",
         " */",
-        "function hook_taxonomy_term_insert($term) {","  $1","}"
+        "function hook_taxonomy_term_insert($$term) {","  $1","}"
     ],
     "description": "Act on taxonomy terms when inserted.",
     "scope": "text.php"
@@ -3162,7 +3152,7 @@
         "/**",
         " * Implements hook_taxonomy_term_load().",
         " */",
-        "function hook_taxonomy_term_load($terms) {","  $1","}"
+        "function hook_taxonomy_term_load($$terms) {","  $1","}"
     ],
     "description": "Act on taxonomy terms when loaded.",
     "scope": "text.php"
@@ -3173,7 +3163,7 @@
         "/**",
         " * Implements hook_taxonomy_term_presave().",
         " */",
-        "function hook_taxonomy_term_presave($term) {","  $1","}"
+        "function hook_taxonomy_term_presave($$term) {","  $1","}"
     ],
     "description": "Act on taxonomy terms before they are saved.",
     "scope": "text.php"
@@ -3184,7 +3174,7 @@
         "/**",
         " * Implements hook_taxonomy_term_update().",
         " */",
-        "function hook_taxonomy_term_update($term) {","  $1","}"
+        "function hook_taxonomy_term_update($$term) {","  $1","}"
     ],
     "description": "Act on taxonomy terms when updated.",
     "scope": "text.php"
@@ -3195,7 +3185,7 @@
         "/**",
         " * Implements hook_taxonomy_term_view().",
         " */",
-        "function hook_taxonomy_term_view($term, $view_mode, $langcode) {","  $1","}"
+        "function hook_taxonomy_term_view($$term, $$view_mode, $$langcode) {","  $1","}"
     ],
     "description": "Act on a taxonomy term that is being assembled before rendering.",
     "scope": "text.php"
@@ -3206,7 +3196,7 @@
         "/**",
         " * Implements hook_taxonomy_term_view_alter().",
         " */",
-        "function hook_taxonomy_term_view_alter(&$build) {","  $1","}"
+        "function hook_taxonomy_term_view_alter(&$$build) {","  $1","}"
     ],
     "description": "Alter the results of taxonomy_term_view().",
     "scope": "text.php"
@@ -3217,7 +3207,7 @@
         "/**",
         " * Implements hook_taxonomy_vocabulary_delete().",
         " */",
-        "function hook_taxonomy_vocabulary_delete($vocabulary) {","  $1","}"
+        "function hook_taxonomy_vocabulary_delete($$vocabulary) {","  $1","}"
     ],
     "description": "Respond to the deletion of taxonomy vocabularies.",
     "scope": "text.php"
@@ -3228,7 +3218,7 @@
         "/**",
         " * Implements hook_taxonomy_vocabulary_insert().",
         " */",
-        "function hook_taxonomy_vocabulary_insert($vocabulary) {","  $1","}"
+        "function hook_taxonomy_vocabulary_insert($$vocabulary) {","  $1","}"
     ],
     "description": "Act on taxonomy vocabularies when inserted.",
     "scope": "text.php"
@@ -3239,7 +3229,7 @@
         "/**",
         " * Implements hook_taxonomy_vocabulary_load().",
         " */",
-        "function hook_taxonomy_vocabulary_load($vocabularies) {","  $1","}"
+        "function hook_taxonomy_vocabulary_load($$vocabularies) {","  $1","}"
     ],
     "description": "Act on taxonomy vocabularies when loaded.",
     "scope": "text.php"
@@ -3250,7 +3240,7 @@
         "/**",
         " * Implements hook_taxonomy_vocabulary_presave().",
         " */",
-        "function hook_taxonomy_vocabulary_presave($vocabulary) {","  $1","}"
+        "function hook_taxonomy_vocabulary_presave($$vocabulary) {","  $1","}"
     ],
     "description": "Act on taxonomy vocabularies before they are saved.",
     "scope": "text.php"
@@ -3261,7 +3251,7 @@
         "/**",
         " * Implements hook_taxonomy_vocabulary_update().",
         " */",
-        "function hook_taxonomy_vocabulary_update($vocabulary) {","  $1","}"
+        "function hook_taxonomy_vocabulary_update($$vocabulary) {","  $1","}"
     ],
     "description": "Act on taxonomy vocabularies when updated.",
     "scope": "text.php"
@@ -3272,7 +3262,7 @@
         "/**",
         " * Implements hook_test_finished().",
         " */",
-        "function hook_test_finished($results) {","  $1","}"
+        "function hook_test_finished($$results) {","  $1","}"
     ],
     "description": "An individual test has finished.",
     "scope": "text.php"
@@ -3305,7 +3295,7 @@
         "/**",
         " * Implements hook_theme().",
         " */",
-        "function hook_theme($existing, $type, $theme, $path) {","  $1","}"
+        "function hook_theme($$existing, $$type, $$theme, $$path) {","  $1","}"
     ],
     "description": "Register a module (or theme's) theme implementations.",
     "scope": "text.php"
@@ -3316,7 +3306,7 @@
         "/**",
         " * Implements hook_theme_registry_alter().",
         " */",
-        "function hook_theme_registry_alter(&$theme_registry) {","  $1","}"
+        "function hook_theme_registry_alter(&$$theme_registry) {","  $1","}"
     ],
     "description": "Alter the theme registry information returned from hook_theme().",
     "scope": "text.php"
@@ -3327,7 +3317,7 @@
         "/**",
         " * Implements hook_tokens().",
         " */",
-        "function hook_tokens($type, $tokens, array $data, array $options, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
+        "function hook_tokens($$type, $$tokens, array $data, array $options, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
     ],
     "description": "Provide replacement values for placeholder tokens.",
     "scope": "text.php"
@@ -3338,7 +3328,7 @@
         "/**",
         " * Implements hook_tokens_alter().",
         " */",
-        "function hook_tokens_alter(array &$replacements, array $context, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
+        "function hook_tokens_alter(array &$$replacements, array $context, \\Backdrop\\Core\\Render\\BubbleableMetadata $bubbleable_metadata) {","  $1","}"
     ],
     "description": "Alter replacement values for placeholder tokens.",
     "scope": "text.php"
@@ -3360,7 +3350,7 @@
         "/**",
         " * Implements hook_token_info_alter().",
         " */",
-        "function hook_token_info_alter(&$data) {","  $1","}"
+        "function hook_token_info_alter(&$$data) {","  $1","}"
     ],
     "description": "Alter the metadata about available placeholder tokens and token types.",
     "scope": "text.php"
@@ -3371,7 +3361,7 @@
         "/**",
         " * Implements hook_translated_menu_link_alter().",
         " */",
-        "function hook_translated_menu_link_alter(&$item, $map) {","  $1","}"
+        "function hook_translated_menu_link_alter(&$$item, $$map) {","  $1","}"
     ],
     "description": "Alter a menu link after it has been translated and before it is rendered.",
     "scope": "text.php"
@@ -3415,7 +3405,7 @@
         "/**",
         " * Implements hook_update().",
         " */",
-        "function hook_update($node) {","  $1","}"
+        "function hook_update($$node) {","  $1","}"
     ],
     "description": "Respond to updates to a node.",
     "scope": "text.php"
@@ -3437,7 +3427,7 @@
         "/**",
         " * Implements hook_updater_info_alter().",
         " */",
-        "function hook_updater_info_alter(&$updaters) {","  $1","}"
+        "function hook_updater_info_alter(&$$updaters) {","  $1","}"
     ],
     "description": "Alter the Updater information array.",
     "scope": "text.php"
@@ -3481,7 +3471,7 @@
         "/**",
         " * Implements hook_update_N().",
         " */",
-        "function hook_update_N(&$sandbox) {","  $1","}"
+        "function hook_update_N(&$$sandbox) {","  $1","}"
     ],
     "description": "Perform a single update.",
     "scope": "text.php"
@@ -3492,7 +3482,7 @@
         "/**",
         " * Implements hook_update_projects_alter().",
         " */",
-        "function hook_update_projects_alter(&$projects) {","  $1","}"
+        "function hook_update_projects_alter(&$$projects) {","  $1","}"
     ],
     "description": "Alter the list of projects before fetching data and comparing versions.",
     "scope": "text.php"
@@ -3503,7 +3493,7 @@
         "/**",
         " * Implements hook_update_status_alter().",
         " */",
-        "function hook_update_status_alter(&$projects) {","  $1","}"
+        "function hook_update_status_alter(&$$projects) {","  $1","}"
     ],
     "description": "Alter the information about available updates for projects.",
     "scope": "text.php"
@@ -3514,7 +3504,7 @@
         "/**",
         " * Implements hook_url_inbound_alter().",
         " */",
-        "function hook_url_inbound_alter(&$path, $original_path, $path_language) {","  $1","}"
+        "function hook_url_inbound_alter(&$$path, $$original_path, $$path_language) {","  $1","}"
     ],
     "description": "Alters inbound URL requests.",
     "scope": "text.php"
@@ -3525,7 +3515,7 @@
         "/**",
         " * Implements hook_url_outbound_alter().",
         " */",
-        "function hook_url_outbound_alter(&$path, &$options, $original_path) {","  $1","}"
+        "function hook_url_outbound_alter(&$$path, &$$options, $$original_path) {","  $1","}"
     ],
     "description": "Alters outbound URLs.",
     "scope": "text.php"
@@ -3536,7 +3526,7 @@
         "/**",
         " * Implements hook_username_alter().",
         " */",
-        "function hook_username_alter(&$name, $account) {","  $1","}"
+        "function hook_username_alter(&$$name, $$account) {","  $1","}"
     ],
     "description": "Alter the username that is displayed for a user.",
     "scope": "text.php"
@@ -3547,7 +3537,7 @@
         "/**",
         " * Implements hook_user_cancel().",
         " */",
-        "function hook_user_cancel($edit, $account, $method) {","  $1","}"
+        "function hook_user_cancel($$edit, $$account, $$method) {","  $1","}"
     ],
     "description": "Act on user account cancellations.",
     "scope": "text.php"
@@ -3558,7 +3548,7 @@
         "/**",
         " * Implements hook_user_cancel_methods_alter().",
         " */",
-        "function hook_user_cancel_methods_alter(&$methods) {","  $1","}"
+        "function hook_user_cancel_methods_alter(&$$methods) {","  $1","}"
     ],
     "description": "Modify account cancellation methods.",
     "scope": "text.php"
@@ -3580,7 +3570,7 @@
         "/**",
         " * Implements hook_user_delete().",
         " */",
-        "function hook_user_delete($account) {","  $1","}"
+        "function hook_user_delete($$account) {","  $1","}"
     ],
     "description": "Respond to user deletion.",
     "scope": "text.php"
@@ -3591,7 +3581,7 @@
         "/**",
         " * Implements hook_user_insert().",
         " */",
-        "function hook_user_insert(&$edit, $account, $category) {","  $1","}"
+        "function hook_user_insert(&$$edit, $$account, $$category) {","  $1","}"
     ],
     "description": "A user account was created.",
     "scope": "text.php"
@@ -3602,7 +3592,7 @@
         "/**",
         " * Implements hook_user_load().",
         " */",
-        "function hook_user_load($users) {","  $1","}"
+        "function hook_user_load($$users) {","  $1","}"
     ],
     "description": "Act on user objects when loaded from the database.",
     "scope": "text.php"
@@ -3613,7 +3603,7 @@
         "/**",
         " * Implements hook_user_login().",
         " */",
-        "function hook_user_login($account) {","  $1","}"
+        "function hook_user_login($$account) {","  $1","}"
     ],
     "description": "The user just logged in.",
     "scope": "text.php"
@@ -3624,7 +3614,7 @@
         "/**",
         " * Implements hook_user_logout().",
         " */",
-        "function hook_user_logout($account) {","  $1","}"
+        "function hook_user_logout($$account) {","  $1","}"
     ],
     "description": "The user just logged out.",
     "scope": "text.php"
@@ -3646,7 +3636,7 @@
         "/**",
         " * Implements hook_user_presave().",
         " */",
-        "function hook_user_presave(&$edit, $account, $category) {","  $1","}"
+        "function hook_user_presave(&$$edit, $$account, $$category) {","  $1","}"
     ],
     "description": "A user account is about to be created or updated.",
     "scope": "text.php"
@@ -3657,7 +3647,7 @@
         "/**",
         " * Implements hook_user_role_delete().",
         " */",
-        "function hook_user_role_delete($role) {","  $1","}"
+        "function hook_user_role_delete($$role) {","  $1","}"
     ],
     "description": "Respond to user role deletion.",
     "scope": "text.php"
@@ -3668,7 +3658,7 @@
         "/**",
         " * Implements hook_user_role_insert().",
         " */",
-        "function hook_user_role_insert($role) {","  $1","}"
+        "function hook_user_role_insert($$role) {","  $1","}"
     ],
     "description": "Respond to creation of a new user role.",
     "scope": "text.php"
@@ -3679,7 +3669,7 @@
         "/**",
         " * Implements hook_user_role_presave().",
         " */",
-        "function hook_user_role_presave($role) {","  $1","}"
+        "function hook_user_role_presave($$role) {","  $1","}"
     ],
     "description": "Act on a user role being inserted or updated.",
     "scope": "text.php"
@@ -3690,7 +3680,7 @@
         "/**",
         " * Implements hook_user_role_update().",
         " */",
-        "function hook_user_role_update($role) {","  $1","}"
+        "function hook_user_role_update($$role) {","  $1","}"
     ],
     "description": "Respond to updates to a user role.",
     "scope": "text.php"
@@ -3701,7 +3691,7 @@
         "/**",
         " * Implements hook_user_update().",
         " */",
-        "function hook_user_update(&$edit, $account, $category) {","  $1","}"
+        "function hook_user_update(&$$edit, $$account, $$category) {","  $1","}"
     ],
     "description": "A user account was updated.",
     "scope": "text.php"
@@ -3712,7 +3702,7 @@
         "/**",
         " * Implements hook_user_view().",
         " */",
-        "function hook_user_view($account, $view_mode, $langcode) {","  $1","}"
+        "function hook_user_view($$account, $$view_mode, $$langcode) {","  $1","}"
     ],
     "description": "The user's account information is being displayed.",
     "scope": "text.php"
@@ -3723,7 +3713,7 @@
         "/**",
         " * Implements hook_user_view_alter().",
         " */",
-        "function hook_user_view_alter(&$build) {","  $1","}"
+        "function hook_user_view_alter(&$$build) {","  $1","}"
     ],
     "description": "The user was built; the module may modify the structured content.",
     "scope": "text.php"
@@ -3734,7 +3724,7 @@
         "/**",
         " * Implements hook_validate().",
         " */",
-        "function hook_validate($node, $form, &$form_state) {","  $1","}"
+        "function hook_validate($$node, $$form, &$$form_state) {","  $1","}"
     ],
     "description": "Perform node validation before a node is created or updated.",
     "scope": "text.php"
@@ -3745,7 +3735,7 @@
         "/**",
         " * Implements hook_verify_update_archive().",
         " */",
-        "function hook_verify_update_archive($project, $archive_file, $directory) {","  $1","}"
+        "function hook_verify_update_archive($$project, $$archive_file, $$directory) {","  $1","}"
     ],
     "description": "Verify an archive after it has been downloaded and extracted.",
     "scope": "text.php"
@@ -3756,7 +3746,7 @@
         "/**",
         " * Implements hook_view().",
         " */",
-        "function hook_view($node, $view_mode, $langcode = NULL) {","  $1","}"
+        "function hook_view($$node, $$view_mode, $$langcode = NULL) {","  $1","}"
     ],
     "description": "Display a node.",
     "scope": "text.php"
@@ -3789,7 +3779,7 @@
         "/**",
         " * Implements hook_xmlrpc_alter().",
         " */",
-        "function hook_xmlrpc_alter(&$methods)module_hook($module, $hook) {","  $1","}"
+        "function hook_xmlrpc_alter(&$$methods)module_hook($$module, $$hook) {","  $1","}"
     ],
     "description": "Alters the definition of XML-RPC methods before they are called.",
     "scope": "text.php"
@@ -3822,7 +3812,7 @@
         "/**",
         " * Implements module_implements().",
         " */",
-        "function module_implements($hook) {","  $1","}"
+        "function module_implements($$hook) {","  $1","}"
     ],
     "description": "Determines which modules are implementing a hook.",
     "scope": "text.php"
