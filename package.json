@@ -1,9 +1,9 @@
 {
-	"name": "drupal-7-snippets",
-	"displayName": "Drupal-7-Snippets",
-	"description": "Full Drupal tags including Drupal 7 Snippets",
+	"name": "backdrop-snippets",
+	"displayName": "Backdrop-Snippets",
+	"description": "Full Backdrop tags including Backdrop Snippets. Adapted from juniormucciolo Drupal 7 snippets.",
 	"version": "0.0.6",
-	"publisher": "juniormucciolo",
+	"publisher": "herbdool",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
