@@ -5,7 +5,7 @@
         "/**",
         " * Implements hook_actions_delete().",
         " */",
-        "function hook_actions_delete($$$aid) {","  $1","}"
+        "function hook_actions_delete($$aid) {","  $1","}"
     ],
     "description": "Executes code after an action is deleted.",
     "scope": "text.php"
@@ -49,7 +49,7 @@
         "/**",
         " * Implements hook_admin_paths_alter().",
         " */",
-        "function hook_admin_paths_alter(&$$paths)hook_aggregator_fetch($$$feed) {","  $1","}"
+        "function hook_admin_paths_alter(&$$paths)hook_aggregator_fetch($$feed) {","  $1","}"
     ],
     "description": "Redefine administrative paths defined by other modules.",
     "scope": "text.php"
@@ -71,7 +71,7 @@
         "/**",
         " * Implements hook_aggregator_fetch_info().",
         " */",
-        "function hook_aggregator_parse($$$feed) {","  $1","}"
+        "function hook_aggregator_parse($$feed) {","  $1","}"
     ],
     "description": "Specify the title and short description of your fetcher.",
     "scope": "text.php"
@@ -93,7 +93,7 @@
         "/**",
         " * Implements hook_aggregator_parse_info().",
         " */",
-        "function hook_aggregator_process($$$feed) {","  $1","}"
+        "function hook_aggregator_process($$feed) {","  $1","}"
     ],
     "description": "Specify the title and short description of your parser.",
     "scope": "text.php"
@@ -126,7 +126,7 @@
         "/**",
         " * Implements hook_aggregator_remove().",
         " */",
-        "function hook_aggregator_remove($$$feed) {","  $1","}"
+        "function hook_aggregator_remove($$feed) {","  $1","}"
     ],
     "description": "Remove stored feed data.",
     "scope": "text.php"
@@ -192,7 +192,7 @@
         "/**",
         " * Implements hook_block_configure().",
         " */",
-        "function hook_block_configure($$$delta = '') {","  $1","}"
+        "function hook_block_configure($$delta = '') {","  $1","}"
     ],
     "description": "Define a configuration form for a block.",
     "scope": "text.php"
